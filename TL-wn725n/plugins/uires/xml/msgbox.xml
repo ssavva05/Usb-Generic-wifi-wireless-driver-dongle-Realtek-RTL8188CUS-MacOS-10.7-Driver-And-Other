@@ -1,0 +1,56 @@
+﻿<SOUI title="mesagebox" width="448" height="234" appwnd="0" frameSize="40,30,40,80" minSize="448,234" resizable="0" translucent="1" trCtx="messagebox">  <!--frameSize="40,30,10,80"-->
+  <style>
+     <!-- <class name="normalbtn" skin="_skin.sys.btn.normal" font="" colorText="#385e8b" colorTextDisable="#91a7c0" textMode="25" cursor="hand" margin-x="0"/>  -->
+  </style>
+  <buttonText>
+    <ok>OK</ok>
+    <cancel>No</cancel>
+    <abort>Abort</abort>
+    <retry>Retry</retry>
+    <yes>Yes</yes>
+    <no>No</no>
+    <ignore>Ignore</ignore>
+  </buttonText>
+  
+  <!-- <root skin="_skin.sys.wnd.bkgnd"> -->
+  <root skin="skin_bkg_msgbox">
+  <caption pos="4,4,-4,-4">
+    <caption id="101" pos="0,0,-0,40">
+      <text pos="11,9" font="size:12,bold:1" name="msgtitle" >title</text>
+      <imgbtn id="2" skin="skin_msgbox_close_btn" pos="-32,10"/>
+    </caption>
+
+    <caption pos="0,[-10,-40,131">
+      <!-- <icon name="msgicon" pos="40,20" src="LOGO:32" display="0"/>  -->
+	  <!--这里原来是使用ICON控件,但是我改成了img控件,其中name属性的名称不能设置为msgicon,否则底层SOUI会根据该名称查找设置ICON文件,但是这里并没有设置ICON,就会导致程序出现问题-->
+	  <img name="msgimg" pos="40,30" skin="skin_msgbox_ico" show="1"/> 
+      <!-- <text name="msgtext" pos="117,24,-0,121" font="size:12" colorText="#36444B" multilines="1"/> -->
+	  <text name="msgtext" pos="[36,30" align="left" valign="middle" font="size:12" colorText="#36444B" multilines="1">
+	    Description
+	  </text>
+    </caption>
+	
+	<caption pos="-40,131">
+		<img name="blank_take" pos="0,0"/>
+	</caption>
+	
+	<caption pos="0,[-0,-0,-0">
+    <tabctrl name="btnSwitch" pos="0,10,-0,-0" tabHeight="0">
+      <page>
+        <button pos="-124,0" name="button1st" skin="skin_short_btn_yes" focusable="0" font="bold:1,size:14" colorText="#4ACBD6" colorTextHover="#FFFFFF" colorTextPush="#FFFFFF" animate="1">button1</button>
+      </page>
+      <page>
+		<!--button需要设置focusable属性，否则点击后会出现虚线框的情况-->
+        <button pos="-220,0" name="button1st" skin="skin_short_btn_yes" focusable="0" font="bold:1,size:14" colorText="#4ACBD6" colorTextHover="#FFFFFF" colorTextPush="#FFFFFF" animate="1">button1</button>
+        <button pos="-124,0" name="button2nd" skin="skin_short_btn_no" focusable="0" font="bold:1,size:14" colorText="#4ACBD6" colorTextHover="#FFFFFF" colorTextPush="#FFFFFF" animate="1">button2</button>
+      </page>
+      <page>
+        <!-- <button pos="|-140,10,|-50,-10" name="button1st" >button1</button>
+        <button pos="|-45,10,|45,-10" name="button2nd" >button2</button>
+        <button pos="|50,10,|140,-10" name="button3rd" >button3</button> -->
+      </page>
+    </tabctrl>
+	</caption>
+	</caption>
+  </root>
+</SOUI>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<include>
+  <caption pos="0,0,-0,-0" >
+	<!--Dash-->
+	<text name="dash" pos="0,83,600,97" show="1" font="bold:1,size:13" colorText="#005564" align="center" valign="middle">PrintDash</text>	
+	<!--机型描述-->
+	<text name="dev_name_0" pos="0,83,600,97" show="1" font="bold:1,size:13" colorText="#005564" align="center" valign="middle">device' name</text>
+    <!--查找网卡时的Gif动画-->
+    <gifplayer name="SearchCard-gif" pos="|-50,123,|+50,223" skin="Searching_gif" show="1" />
+    <!--查找网卡时的文字描述-->
+	<text name="Searching_Card_Tip" pos="0,225,600,240" font="bold:1,size:12" show="1" colorText="#36444B" align="center" valign="middle" multiLines="1" multiLines="1" interHeight="1">Searching_Card_Description</text>
+	
+  </caption>
+</include>

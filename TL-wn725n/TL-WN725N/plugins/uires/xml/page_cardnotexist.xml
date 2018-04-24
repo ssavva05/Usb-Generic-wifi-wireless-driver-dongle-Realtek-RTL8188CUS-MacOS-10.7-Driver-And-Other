@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<include>
+  <caption pos="0,0,-0,-0" >
+	<!--Dash-->
+	<text name="dash" pos="0,83,600,97" show="1" font="bold:1,size:13" colorText="#005564" align="center" valign="middle">PrintDash</text>	  
+	<!--机型描述-->
+	<text name="dev_name_14" pos="0,83,600,97" show="1" font="bold:1,size:13" colorText="#005564" align="center" valign="middle">device' name</text>
+    
+	<!--无法找到网卡时的图标-->
+	<img name="img_card_not_exit_check" skin="skin_fail_check" pos="280,121,320,161" animate="0"/>
+	
+    <!--无法找到网卡时的文字描述-->
+	<text name="card_not_exit_des" pos="0,173,600,209" font="bold:1,size:12" show="1" colorText="#36444B" align="center" valign="middle" multiLines="1" interHeight="2">
+		Card_Not_Exist_Description
+	</text>
+		
+	<!--完成按键-->
+	<imgbtn name="btn_card_not_exit_confirm" skin="skin_step_btn" pos="230,235,370,267" font="bold:1,size:14"  colorText="#4ACBD6" colorTextHover="#FFFFFF" colorTextPush="#FFFFFF" animate="1">Confirm_Btn</imgbtn>
+	
+  </caption>
+</include>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language name="English" guid="{0DAEDE3C-6B94-4a81-9A55-C304FDD69D98}">
+  <context>
+    <!--没有上下文的翻译-->
+  </context>
+  <context name="messagebox">				<!--MessageBox弹窗上的文本信息-->
+    <message>
+      <source>OK</source>					<!--按键相关的文本-->
+      <translation>Ja</translation>
+    </message>
+    <message>
+      <source>Cancel</source>
+      <translation>Annuleer</translation>
+    </message>
+	<message>
+      <source>Abort</source>
+      <translation>Exit</translation>
+    </message>
+    <message>
+      <source>Retry</source>
+      <translation>Probeer het opnieuw</translation>
+    </message>
+	<message>
+      <source>Yes</source>
+      <translation>Oke</translation>
+    </message>
+	<message>
+      <source>No</source>
+      <translation>Nee</translation>
+    </message>
+	<message>
+      <source>Ignore</source>
+      <translation>Negeren</translation>
+    </message>
+	<message>								<!--MessageBox内提示信息的文本-->
+      <source>Close_Win_Description</source>
+      <translation>Als u nu stopt dan onderbreekt u de installatie.\nWeet u zeker dat u dit wilt beëindigen?</translation>
+    </message>
+	<message>								<!--MessageBox内提示信息的文本-->
+      <source>Run_Already_Tip</source>
+      <translation>Het programma wordt al uitgevoerd.</translation>
+    </message>
+  </context>
+  
+  <context name="mainWindow">				<!--主界面上的文本信息-->
+	<message>								<!--机型名称-->
+	  <source>Select_Device_Des</source>			
+	  <translation>Selecteer eerst uw model nummer voor het installeren van de juiste driver</translation>
+	</message>
+	<message>
+		<source>CopyRight_Info</source>
+		<translation>Copyright © 2017 TP-Link Technologies Co., Ltd. Alle rechten voorbehouden.</translation>
+	</message>
+  </context>
+</language>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language name="English" guid="{0DAEDE3C-6B94-4a81-9A55-C304FDD69D98}">
+  <context>
+    <!--没有上下文的翻译-->
+  </context>
+  <context name="messagebox">				<!--MessageBox弹窗上的文本信息-->
+    <message>
+      <source>OK</source>					<!--按键相关的文本-->
+      <translation>Có</translation>
+    </message>
+    <message>
+      <source>Cancel</source>
+      <translation>Hủy</translation>
+    </message>
+	<message>
+      <source>Abort</source>
+      <translation>Thoát</translation>
+    </message>
+    <message>
+      <source>Retry</source>
+      <translation>Thử lại</translation>
+    </message>
+	<message>
+      <source>Yes</source>
+      <translation>Ok</translation>
+    </message>
+	<message>
+      <source>No</source>
+      <translation>Không</translation>
+    </message>
+	<message>
+      <source>Ignore</source>
+      <translation>Bỏ qua</translation>
+    </message>
+	<message>								<!--MessageBox内提示信息的文本-->
+      <source>Close_Win_Description</source>
+      <translation>Nếu bạn thoát lúc này, bạn sẽ \nkhông thể hoàn tất cài đặt.\nBạn có chắc chắn muốn thoát không?</translation>
+    </message>
+	<message>								<!--MessageBox内提示信息的文本-->
+      <source>Run_Already_Tip</source>
+      <translation>Chương trình đã được khởi chạy.</translation>
+    </message>
+  </context>
+  
+  <context name="mainWindow">				<!--主界面上的文本信息-->
+	<message>								<!--机型名称-->
+	  <source>Select_Device_Des</source>			
+	  <translation>Trước tiên, vui lòng chọn model để bắt đầu cài đặt trình điều khiển.</translation>
+	</message>
+	<message>
+		<source>CopyRight_Info</source>
+		<translation>Bản quyền © 2017 TP-Link Technologies Co., Ltd. Dành quyền tác giả.</translation>
+	</message>
+  </context>
+</language>

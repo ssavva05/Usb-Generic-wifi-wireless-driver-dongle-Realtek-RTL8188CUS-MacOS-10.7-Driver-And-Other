@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language name="ch" guid="{0DAEDE3C-6B94-4a81-9A55-C304FDD69D98}">
+  <context>
+    <!--没有上下文的翻译-->
+  </context>
+  <context name="messagebox">				<!--MessageBox弹窗上的文本信息-->
+    <message>
+      <source>OK</source>					<!--按键相关的文本-->
+      <translation>Có</translation>
+    </message>
+    <message>
+      <source>Cancel</source>
+      <translation>Không</translation>
+    </message>
+	<message>
+      <source>Abort</source>
+      <translation>Thoát</translation>
+    </message>
+    <message>
+      <source>Retry</source>
+      <translation>Thử lại</translation>
+    </message>
+	<message>
+      <source>Yes</source>
+      <translation>Có</translation>
+    </message>
+	<message>
+      <source>No</source>
+      <translation>Không</translation>
+    </message>
+	<message>
+      <source>Ignore</source>
+      <translation>Bỏ qua</translation>
+    </message>
+	<message>								<!--MessageBox内提示信息的文本-->
+      <source>Close_Win_Description</source>
+      <translation>Việc cài đặt chưa hoàn tất. Nếu bạn thoát lúc này, bạn sẽ \nkhông thể kết nối đến mạng Wi-Fi của bạn. \nBạn có chắc chắn muốn thoát không?</translation>
+    </message>
+	<message>
+	  <source>Close_WPSTool_Install_Description</source>
+	  <translation>Việc cài đặt chưa hoàn tất. Nếu bạn thoát lúc này, \nCông cụ WPS sẽ không được cài đặt. Bạn có chắc chắn muốn thoát không?</translation>
+	</message>
+	<message>
+      <source>Choose_Remove_Driver_Description</source>
+      <translation>Nếu bạn gỡ trình điều khiển, bạn sẽ không thể \nkết nối đến mạng Wi-Fi của mình. Bạn có chắn chắn \nmuốn tháo trình điều khiển?</translation>
+    </message>
+	<message>
+      <source>Choose_Remove_All_Description</source>
+      <translation>Nếu bạn gỡ trình điều khiển và công cụ WPS, bạn sẽ không thể \nkết nối đến mạng Wi-Fi của mình. Bạn có chắn chắn \nmuốn tháo trình điều khiển?</translation>
+    </message>
+	<message>
+	  <source>Unknown_System_Version</source>
+	  <translation>Không thể phát hiện phiên bản hệ thống của bạn. \nTrính cài đặt sẽ thoát.</translation>
+	</message>
+	<message>
+	  <source>Installer_Do_Not_Support_This_System</source>
+	  <translation>Cài đặt không hỗ trợ hệ điều hành của bạn. \nVui lòng chọn gói cài đặt chính xác.</translation>
+	</message>
+	<message>
+	  <source>Driver_Do_Not_Support_This_System</source>
+	  <translation>Trình điều khiển không hỗ trợ hệ điều hành của bạn. \nTrình cài đặt sẽ thoát.</translation>
+	</message>
+	<message>
+	  <source>Error_Request_Administrator</source>
+	  <translation>Bạn cần quyền Quản trị viên (administrator) để sử dụng phần mềm này.</translation>
+	</message>
+	<message>
+	  <source>Error_Progress</source>
+	  <translation>Đã có vấn đề với chương trình cài đặt. \nTrình cài đặt sẽ thoát.</translation>
+	</message>
+	<message>
+	  <source>Error_File_Create_Failed</source>
+	  <translation>Không thể tạo tập tin.</translation>
+	</message>
+	<message>
+	  <source>Error_Unable_To_Create_File</source>
+	  <translation>Bạn không có quyền tạo tập tin tạm. \nTrình cài đặt sẽ thoát.</translation>
+	</message>
+	<message>
+	  <source>Error_Launch</source>
+	  <translation>Không thể chạy chương trình cài đặt.</translation>
+	</message>
+	<message>
+	  <source>Error_Load</source>
+	  <translation>Không thể tải một số tập tin xác định.</translation>
+	</message>
+	<message>
+	  <source>Error_Not_Enough_Space</source>
+	  <translation>Không đủ không gian lưu trữ.</translation>
+	</message>
+	<message>
+	  <source>Error_Something_Wrong</source>
+	  <translation>Đã có vấn đề xảy ra trong quá trình cài đặt.</translation>
+	</message>
+	<message>
+	  <source>Loading_Info</source>
+	  <translation>Đang chuẩn bị cài đặt…</translation>
+	</message>
+	<message>
+	  <source>WPSTool_Install_Attention</source>
+	  <translation>Bạn đã cài đặt Công cụ WPS cho một sản phẩm khác. \nNếu bạn muốn cài đặt Công cụ WPS cho sản phẩm này, \nvui lòng xóa cài đặt của sản phẩm cũ trước.</translation>
+	</message>
+	<message>
+	  <source>Maintain_Quit_Attention</source>
+	  <translation>Bạn chắc chắn muốn thoát?</translation>
+	</message>
+	<message>
+	  <source>Driver_Installed_Attention</source>
+	  <translation>Bạn đã cài đặt trình điều khiển. \nNếu bạn muốn cài đặt trình điều khiển mới, \nvui lòng xóa cài đặt cũ trước.</translation>
+	</message>
+	<message>
+	  <source>Install_Setup_Already_Run</source>
+	  <translation>Chương trình đã được khởi chạy.</translation>
+	</message>
+	<message>
+	  <source>Uninstall_Setup_Already_Run</source>
+	  <translation>Chương trình xóa cài đặt đã được khởi chạy.</translation>
+	</message>
+  </context>
+  
+  <context name="mainWindow">				<!--主界面上的文本信息-->
+	<message>								<!--机型名称-->
+	  <source>PrintDash</source>			
+	  <translation>———                         ———</translation>
+	</message>
+	<message>								<!--机型名称-->
+	  <source>WPS_Name</source>			
+	  <translation>——— Công cụ WPS ———</translation>
+	</message>
+	
+	<!--查询网卡页面-->
+	<message>								<!--查找网卡页面上的显示文本-->
+		<source>Searching_Card_Description</source>
+		<translation>Đang tìm kiếm bộ chuyển đổi của bạn…</translation>
+	</message>
+	
+	<!--无法查找到网卡提示页面-->
+	<message>								<!--无法查找到指定网卡时的提示信息-->
+		<source>Card_Not_Exist_Description</source>
+		<translation>Không thể tìm thấy bộ chuyển đổi của bạn. \nVui lòng đảm bảo bạn đã cắm bộ chuyển đổi và chọn đúng model.</translation>
+	</message>
+	<message>								<!--无法查找到指定网卡时confirm按键上的提示信息-->
+		<source>Confirm_Btn</source>
+		<translation>Thử lại</translation>
+	</message>
+	
+	<!--驱动安装完成页面-->
+	<message>								<!--驱动安装完成页面的文本提示信息-->
+	  <source>Driver_Install_Finish_Description</source>
+	  <translation>Đã cài đặt trình điều khiển! \nBây giờ bạn có thể kết nối máy tính của bạn đến mạng Wi-Fi.</translation>
+	</message>
+	<message>								<!--驱动安装完成页面按键的提示信息-->
+	  <source>Driver_Install_Finish_Btn</source>
+	  <translation>Ok</translation>
+	</message>
+	
+	<!--提示是否安装WPSTool页面-->
+	<message>								<!--检测到支持WPSTool的提示信息-->
+	  <source>Detect_Support_WPSTool_Description</source>
+	  <translation>Tuyệt! Bộ chuyển đổi của bạn có hỗ trợ WPS.</translation>
+	</message>
+	<message>								<!--insert success word into WPS_des png-->
+	  <source>wps_connect_success</source>
+	  <translation>Thành công</translation>
+	</message>	
+	<message>								<!--询问是否安装WPSTool提示信息-->
+	  <source>Ask_To_Install_WPSTool_Description</source>
+	  <translation>Với WPS (Wi-Fi Protected Setup),\nbạn có thể kết nối đến mạng Wi-Fi một cách dễ dàng chỉ bằng một nút nhấn. Để có thể sử dụng,\ntrước tiên xin vui lòng cài đặt công cụ WPS Tool của chúng tôi. Cài đặt WPS ngay?</translation>
+	</message>
+	<message>								<!--确认安装WPSTool按键的提示信息-->
+	  <source>Yes_To_Install_WPSTool_Btn</source>
+	  <translation>Có</translation>
+	</message>
+	<message>								<!--不安装WPSTool按键的提示信息-->
+	  <source>No_To_Install_WPSTool_Btn</source>
+	  <translation>Không</translation>
+	</message>
+	
+	<!--WPSTool安装路径选择页面-->
+	<message>								<!--WPSTool功能描述-->
+	  <source>WPSTool_Function_Description</source>
+	  <translation>Chọn vị trí lưu trữ cho Công cụ WPS.</translation>
+	</message>
+	<message>								<!--路径选择按键上的提示信息-->
+	  <source>Path_Selection_Btn</source>
+	  <translation>Duyệt</translation>
+	</message>
+	<message>
+	  <source>Path_Select_Guid</source>		<!--路径选择弹出窗口的提示信息-->
+	  <translation>Chọn vị trí lưu trữ cho Công cụ WPS.</translation>
+	</message>
+	<message>								<!--开始安装WPSTool按键上的提示信息-->
+	  <source>Start_Install_WPSTool_Btn</source>
+	  <translation>Bắt đầu</translation>
+	</message>
+	
+	<!--WPSTool安装完成页面-->
+	<message>								<!--WPSTool安装完成时的描述信息-->
+	  <source>WPSTool_Install_Finish_Description</source>
+	  <translation>Công cụ WPS đã được cài đặt!\nĐể kết nối đến mạng Wi-Fi của bạn, nhấn nút WPS trên router của bạn.\nTrong vòng hai phút, nhấn và giữ nút WPS trên bộ chuyển đổi của bạn cho đến khi Công cụ WPS mở.</translation>
+	</message>
+	<message>								<!--WPSTool安装完成时的Note信息-->
+	  <source>WPSTool_Install_Finish_Note</source>
+	  <translation></translation>
+	</message>
+	<message>								<!--WPSTool安装完成按键上的提示信息-->
+	  <source>WPSTool_Install_Finish_Btn</source>
+	  <translation>Ok</translation>
+	</message>
+	
+	<!--维护模式选择页面-->
+	<message>								<!--维护模式选择页面的指引信息-->
+	  <source>Maintain_Description</source>
+	  <translation>Chọn một tùy chọn bên dưới để chỉnh sửa phần mềm cài đặt.</translation>
+	</message>
+	<message>								<!--repair mode下选择框的提示信息-->
+	  <source>Repair_Mode_Description</source>
+	  <translation>Sửa trình điều khiển (và công cụ WPS) nếu có vấn đề xảy ra.</translation>
+	</message>
+	<message>								<!--remove mode下选择框的提示信息-->
+	  <source>Remove_Mode_Description</source>
+	  <translation>Gỡ bỏ trình điều khiển (và công cụ WPS) từ máy tính của bạn.</translation>
+	</message>
+	<message>								<!--repair mode下选择框的提示信息-->
+	  <source>Repair_Driver_Description</source>
+	  <translation>Sửa trình điều khiển nếu có vấn đề xảy ra.</translation>
+	</message>
+	<message>								<!--repair mode下选择框的提示信息-->
+	  <source>Repair_All_Description</source>
+	  <translation>Sửa trình điều khiển và công cụ WPS nếu có vấn đề xảy ra.</translation>
+	</message>
+	<message>								<!--remove mode下选择框的提示信息-->
+	  <source>Remove_Driver_Description</source>
+	  <translation>Gỡ bỏ trình điều khiển từ máy tính của bạn.</translation>
+	</message>
+	<message>				
+	  <source>Remove_All_Description</source>
+	  <translation>Gỡ bỏ trình điều khiển và công cụ WPS từ máy tính của bạn.</translation>
+	</message>
+	
+	<!--Repair Mode完成时的页面-->
+	<message>								<!--repair mode完成时的提示信息-->
+	  <source>Repair_Mode_Finish_Description</source>
+	  <translation>Đã sửa thành công!</translation>
+	</message>
+	<message>								<!--repair mode完成时按键的提示信息-->
+	  <source>Repair_Mode_Finish_Btn</source>
+	  <translation>Ok</translation>
+	</message>
+	
+	<!--Remove Mode完成时的页面-->
+	<message>								<!--remove mode完成时的提示信息-->
+	  <source>Remove_Driver_Finish_Description</source>
+	  <translation>Trình điều khiển đã được gỡ bỏ khỏi máy tính của bạn thành công.</translation>
+	</message>
+	<message>								<!--remove mode完成时的提示信息-->
+	  <source>Remove_All_Finish_Description</source>
+	  <translation>Trình điều khiển và công cụ WPS đã được gỡ bỏ khỏi máy tính của bạn thành công.</translation>
+	</message>
+	<message>								<!--remove mode完成时的提示信息-->
+	  <source>Remove_Mode_Finish_Description</source>
+	  <translation>Trình điều khiển (và công cụ WPS) đã được gỡ bỏ khỏi máy tính của bạn thành công.</translation>
+	</message>
+	<message>								<!--remove mode完成时按键的提示信息-->
+	  <source>Remove_Mode_Finish_Btn</source>
+	  <translation>Ok</translation>
+	</message>
+	
+	<!--询问用户是否重启电脑页面-->
+	<message>
+	  <source>Ask_To_Reboot_Computer</source>
+	  <translation>Đã sửa thành công! \nĐể sử dụng bộ chuyển đổi, vui lòng khởi động lại máy tính của bạn.</translation>
+	</message>
+	<message>
+	  <source>Yes_To_Reboot_Radio</source>
+	  <translation>Đồng ý, khởi động lại ngay</translation>
+	</message>
+	<message>
+	  <source>No_To_Reboot_Radio</source>
+	  <translation>Không, khởi động lại sau</translation>
+	</message>
+	<message>
+	  <source>Ask_Reboot_Finish_Btn</source>
+	  <translation>Ok</translation>
+	</message>
+	
+	<!--If user have installed driver but not wps tool, ask to install wps tool or install driver-->
+	<message>
+	  <source>Ask_Install_Driver_WPSTool_Description</source>
+	  <translation>Vui lòng chọn tùy chọn bên dưới:</translation>
+	</message>
+	<message>
+	  <source>Install_Driver_Description</source>
+	  <translation>Cài đặt trình điều khiển</translation>
+	</message>
+	<message>
+	  <source>Install_WPSTool_Description</source>
+	  <translation>Cài đặt công cụ WPS</translation>
+	</message>	
+	
+  </context>
+</language>

@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language name="ch" guid="{0DAEDE3C-6B94-4a81-9A55-C304FDD69D98}">
+  <context>
+    <!--没有上下文的翻译-->
+  </context>
+  <context name="messagebox">				<!--MessageBox弹窗上的文本信息-->
+    <message>
+      <source>OK</source>					<!--按键相关的文本-->
+      <translation>はい</translation>
+    </message>
+    <message>
+      <source>Cancel</source>
+      <translation>いいえ</translation>
+    </message>
+	<message>
+      <source>Abort</source>
+      <translation>終了</translation>
+    </message>
+    <message>
+      <source>Retry</source>
+      <translation>再試行</translation>
+    </message>
+	<message>
+      <source>Yes</source>
+      <translation>はい</translation>
+    </message>
+	<message>
+      <source>No</source>
+      <translation>いいえ</translation>
+    </message>
+	<message>
+      <source>Ignore</source>
+      <translation>無視</translation>
+    </message>
+	<message>								<!--MessageBox内提示信息的文本-->
+      <source>Close_Win_Description</source>
+      <translation>インストールは完了していません。もし終了した場合、\nWi-Fiネットワークに接続が出来なくなってしまいます。\n終了してもよろしいですか？</translation>
+    </message>
+	<message>
+	  <source>Close_WPSTool_Install_Description</source>
+	  <translation>インストールは完了していません。もし終了した場合、WPS \nツールはインストールされません。終了してもよろしいですか？</translation>
+	</message>
+	<message>
+      <source>Choose_Remove_Driver_Description</source>
+      <translation>ドライバーを削除した場合、Wi-Fiネットワークに\n接続できなくなります。\n削除してもよろしいですか？</translation>
+    </message>
+	<message>
+      <source>Choose_Remove_All_Description</source>
+      <translation>ドライバーとWPSツールを削除した場合、Wi-Fiネットワークに\n接続できなくなります。\n削除してもよろしいですか？</translation>
+    </message>
+	<message>
+	  <source>Unknown_System_Version</source>
+	  <translation>システムバージョンを認識できませんでした。\nこのインストールを終了します。</translation>
+	</message>
+	<message>
+	  <source>Installer_Do_Not_Support_This_System</source>
+	  <translation>ご利用のOS(オペレーティングシステム)ではこのセットアップがサポートされていません。 \n正しいパッケージを選択してください。</translation>
+	</message>
+	<message>
+	  <source>Driver_Do_Not_Support_This_System</source>
+	  <translation>ご利用のドライバーはこのセットアップがサポートされていません。 \nこのインストールを終了します。</translation>
+	</message>
+	<message>
+	  <source>Error_Request_Administrator</source>
+	  <translation>このソフトウェアを起動するためには、管理者として行う必要があります。</translation>
+	</message>
+	<message>
+	  <source>Error_Progress</source>
+	  <translation>インストールプログラムで誤作動が発生しました。\nこのインストールを終了します。</translation>
+	</message>
+	<message>
+	  <source>Error_File_Create_Failed</source>
+	  <translation>ファイルを作成する事が出来ませんでした。</translation>
+	</message>
+	<message>
+	  <source>Error_Unable_To_Create_File</source>
+	  <translation>一時ファイルを作成する権限がありません。\nこのインストールを終了します。</translation>
+	</message>
+	<message>
+	  <source>Error_Launch</source>
+	  <translation>セットアッププログラムを起動する事が出来ませんでした。</translation>
+	</message>
+	<message>
+	  <source>Error_Load</source>
+	  <translation>特定のファイルを読み込む事が出来ませんでした。</translation>
+	</message>
+	<message>
+	  <source>Error_Not_Enough_Space</source>
+	  <translation>容量が不足しています。</translation>
+	</message>
+	<message>
+	  <source>Error_Something_Wrong</source>
+	  <translation>インストールの最中に誤作動が発生しました。</translation>
+	</message>
+	<message>
+	  <source>Loading_Info</source>
+	  <translation>セットアップの準備中です…</translation>
+	</message>
+	<message>
+	  <source>WPSTool_Install_Attention</source>
+	  <translation>他の製品のためにWPSツールを既にインストール済みです。\nこの製品のためにWPSツールをインストールする場合は、\n既存のWPSツールを削除してから行ってください。</translation>
+	</message>
+	<message>
+	  <source>Maintain_Quit_Attention</source>
+	  <translation>終了してもよろしいですか？</translation>
+	</message>
+	<message>
+	  <source>Driver_Installed_Attention</source>
+	  <translation>既にドライバーをインストール済みです。\n新しいドライバーをインストールする場合は、\n既存のドライバーを削除してから行ってください。</translation>
+	</message>
+	<message>
+	  <source>Install_Setup_Already_Run</source>
+	  <translation>セットアッププログラムは既に起動しています。</translation>
+	</message>
+	<message>
+	  <source>Uninstall_Setup_Already_Run</source>
+	  <translation>アンインストールプログラムは既に起動しています。</translation>
+	</message>
+  </context>
+  
+  <context name="mainWindow">				<!--主界面上的文本信息-->
+	<message>								<!--机型名称-->
+	  <source>PrintDash</source>			
+	  <translation>———                         ———</translation>
+	</message>
+	<message>								<!--机型名称-->
+	  <source>WPS_Name</source>			
+	  <translation>——— WPS ツール ———</translation>
+	</message>
+	
+	<!--查询网卡页面-->
+	<message>								<!--查找网卡页面上的显示文本-->
+		<source>Searching_Card_Description</source>
+		<translation>アダプターを検索しています…</translation>
+	</message>
+	
+	<!--无法查找到网卡提示页面-->
+	<message>								<!--无法查找到指定网卡时的提示信息-->
+		<source>Card_Not_Exist_Description</source>
+		<translation>アダプターが見つかりませんでした。\nアダプターがインストールされていることと、正しいモデルを選択いることを確認してください。</translation>
+	</message>
+	<message>								<!--无法查找到指定网卡时confirm按键上的提示信息-->
+		<source>Confirm_Btn</source>
+		<translation>再試行</translation>
+	</message>
+	
+	<!--驱动安装完成页面-->
+	<message>								<!--驱动安装完成页面的文本提示信息-->
+	  <source>Driver_Install_Finish_Description</source>
+	  <translation>ドライバーがインストールされました。\nコンピューターはWi-Fiネットワークに接続できます。</translation>
+	</message>
+	<message>								<!--驱动安装完成页面按键的提示信息-->
+	  <source>Driver_Install_Finish_Btn</source>
+	  <translation>OK</translation>
+	</message>
+	
+	<!--提示是否安装WPSTool页面-->
+	<message>								<!--检测到支持WPSTool的提示信息-->
+	  <source>Detect_Support_WPSTool_Description</source>
+	  <translation>ご利用のアダプターはWPSに対応しています。</translation>
+	</message>
+	<message>								<!--insert success word into WPS_des png-->
+	  <source>wps_connect_success</source>
+	  <translation>成功しました</translation>
+	</message>	
+	<message>								<!--询问是否安装WPSTool提示信息-->
+	  <source>Ask_To_Install_WPSTool_Description</source>
+	  <translation>WPS(Wi-Fi保護セットアップ)機能を備えている場合ボタンを押すだけでかんたんに接続が出来ます。\n使用するためにはミニ WPSツールをインストールする必要があります。\nWPSをインストールしますか？</translation>
+	</message>
+	<message>								<!--确认安装WPSTool按键的提示信息-->
+	  <source>Yes_To_Install_WPSTool_Btn</source>
+	  <translation>はい</translation>
+	</message>
+	<message>								<!--不安装WPSTool按键的提示信息-->
+	  <source>No_To_Install_WPSTool_Btn</source>
+	  <translation>いいえ</translation>
+	</message>
+	
+	<!--WPSTool安装路径选择页面-->
+	<message>								<!--WPSTool功能描述-->
+	  <source>WPSTool_Function_Description</source>
+	  <translation>WPSツールの場所を選択</translation>
+	</message>
+	<message>								<!--路径选择按键上的提示信息-->
+	  <source>Path_Selection_Btn</source>
+	  <translation>参照</translation>
+	</message>
+	<message>
+	  <source>Path_Select_Guid</source>		<!--路径选择弹出窗口的提示信息-->
+	  <translation>WPSツールの場所を選択</translation>
+	</message>
+	<message>								<!--开始安装WPSTool按键上的提示信息-->
+	  <source>Start_Install_WPSTool_Btn</source>
+	  <translation>開始</translation>
+	</message>
+	
+	<!--WPSTool安装完成页面-->
+	<message>								<!--WPSTool安装完成时的描述信息-->
+	  <source>WPSTool_Install_Finish_Description</source>
+	  <translation>WPSツールがインストールされました！Wi-Fiに接続するためにはルーターのWPSボタンを押し、\n2分以内にWPSツールを開いた状態で子機のWPSボタンを長押ししてください。</translation>
+	</message>
+	<message>								<!--WPSTool安装完成时的Note信息-->
+	  <source>WPSTool_Install_Finish_Note</source>
+	  <translation></translation>
+	</message>
+	<message>								<!--WPSTool安装完成按键上的提示信息-->
+	  <source>WPSTool_Install_Finish_Btn</source>
+	  <translation>OK</translation>
+	</message>
+	
+	<!--维护模式选择页面-->
+	<message>								<!--维护模式选择页面的指引信息-->
+	  <source>Maintain_Description</source>
+	  <translation>インストールされたソフトウェアを変更するには以下の\nオプションを選択してください。 </translation>
+	</message>
+	<message>								<!--repair mode下选择框的提示信息-->
+	  <source>Repair_Mode_Description</source>
+	  <translation>問題が発生した場合はドライバー(及びWPSツール)を修復。</translation>
+	</message>
+	<message>								<!--remove mode下选择框的提示信息-->
+	  <source>Remove_Mode_Description</source>
+	  <translation>ドライバー(及びWPSツール)をコンピューターから削除。</translation>
+	</message>
+	<message>								<!--repair mode下选择框的提示信息-->
+	  <source>Repair_Driver_Description</source>
+	  <translation>問題が発生した場合はドライバーを修復。</translation>
+	</message>
+	<message>								<!--repair mode下选择框的提示信息-->
+	  <source>Repair_All_Description</source>
+	  <translation>問題が発生した場合はドライバー及びWPSツールを修復。</translation>
+	</message>
+	<message>								<!--remove mode下选择框的提示信息-->
+	  <source>Remove_Driver_Description</source>
+	  <translation>ドライバーをコンピューターから削除。</translation>
+	</message>
+	<message>				
+	  <source>Remove_All_Description</source>
+	  <translation>ドライバー及びWPSツールをコンピューターから削除。</translation>
+	</message>
+	
+	<!--Repair Mode完成时的页面-->
+	<message>								<!--repair mode完成时的提示信息-->
+	  <source>Repair_Mode_Finish_Description</source>
+	  <translation>正常に修復されました。</translation>
+	</message>
+	<message>								<!--repair mode完成时按键的提示信息-->
+	  <source>Repair_Mode_Finish_Btn</source>
+	  <translation>OK</translation>
+	</message>
+	
+	<!--Remove Mode完成时的页面-->
+	<message>								<!--remove mode完成时的提示信息-->
+	  <source>Remove_Driver_Finish_Description</source>
+	  <translation>ドライバーは正常にコンピューターから削除されました。</translation>
+	</message>
+	<message>								<!--remove mode完成时的提示信息-->
+	  <source>Remove_All_Finish_Description</source>
+	  <translation>ドライバー及びWPSツールは正常にコンピューターから削除されました。</translation>
+	</message>
+	<message>								<!--remove mode完成时的提示信息-->
+	  <source>Remove_Mode_Finish_Description</source>
+	  <translation>ドライバー(及びWPSツール)は正常にコンピューターから削除されました。</translation>
+	</message>
+	<message>								<!--remove mode完成时按键的提示信息-->
+	  <source>Remove_Mode_Finish_Btn</source>
+	  <translation>OK</translation>
+	</message>
+	
+	<!--询问用户是否重启电脑页面-->
+	<message>
+	  <source>Ask_To_Reboot_Computer</source>
+	  <translation>正常に修復されました！\nアダプターを使用するためにはコンピューターを再起動してください。</translation>
+	</message>
+	<message>
+	  <source>Yes_To_Reboot_Radio</source>
+	  <translation>はい、再起動します。</translation>
+	</message>
+	<message>
+	  <source>No_To_Reboot_Radio</source>
+	  <translation>いいえ、後で再起動します。</translation>
+	</message>
+	<message>
+	  <source>Ask_Reboot_Finish_Btn</source>
+	  <translation>OK</translation>
+	</message>
+	
+	<!--If user have installed driver but not wps tool, ask to install wps tool or install driver-->
+	<message>
+	  <source>Ask_Install_Driver_WPSTool_Description</source>
+	  <translation>以下のオプションを選択してください</translation>
+	</message>
+	<message>
+	  <source>Install_Driver_Description</source>
+	  <translation>ドライバーをインストール</translation>
+	</message>
+	<message>
+	  <source>Install_WPSTool_Description</source>
+	  <translation>WPSツールをインストール</translation>
+	</message>	
+	
+  </context>
+</language>

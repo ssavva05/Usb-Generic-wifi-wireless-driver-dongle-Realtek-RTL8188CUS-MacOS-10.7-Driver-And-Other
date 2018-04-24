@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<include>
+  <caption pos="0,0,-0,-0" >
+	
+    <!--WPS Logo图标-->
+    <!-- <img name="img_wps_logo" skin="skin_wps_logo" pos="|-27,32,|+27,86" animate="0" /> -->
+	<text name="WPS_name" pos="0,83,600,100" show="1" font="bold:1,size:13" colorText="#005564" align="center" valign="middle">WPS_Name</text>
+	
+	<!--关于WPS的描述-->
+	<text name="wps_des" pos="0,134,600,154" show="1" font="bold:1,size:12" colorText="#36444B" align="center" valign="middle">WPSTool_Function_Description</text>
+	
+	<!--路径输入框-->
+	<window pos="70,169" width="342" height="30" class="css_edit_window" skin="skin_bkg_edit_input">
+		<edit name="edit_install_path" pos="2,0,-0,-0" readonly="1" enable="1"/>
+	</window>
+	<!--路径选择按钮-->
+	<imgbtn name="btn_path_select" skin="skin_path_select_btn" pos="418,169,530,199" font="face:ArialMT,bold:1,size:12" colorText="#FFFFFF" animate="1">Path_Selection_Btn</imgbtn>
+	
+	<!--开始按钮按键-->
+	<imgbtn name="btn_start_install_wpstool" skin="skin_short_btn_yes" pos="|-50,250,|+50,282" font="bold:1,adding:1" colorText="#4ACBD6" colorTextHover="#FFFFFF" colorTextPush="#FFFFFF" animate="1">Start_Install_WPSTool_Btn</imgbtn>
+	
+  </caption>
+</include>

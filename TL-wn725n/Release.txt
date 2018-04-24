@@ -1,0 +1,15 @@
+Thank you for your purchase of TP-Link products! The releases of this disk is 
+shown below:
+================================================================================
+
+P/N: CD449A2	
+Version: 1.1		
+Date: 2017-7-19
+
+- second release: Add TL-WN725N Autorun.exe, Driver .
+
+================================================================================
+New versions of the Driver or User Guide may be released. Please pay attention
+to our website for the new versions.
+
+Website: http://www.tp-link.com

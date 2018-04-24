@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language name="English" guid="{0DAEDE3C-6B94-4a81-9A55-C304FDD69D98}">
+  <context>
+    <!--没有上下文的翻译-->
+  </context>
+  <context name="messagebox">				<!--MessageBox弹窗上的文本信息-->
+    <message>
+      <source>OK</source>					<!--按键相关的文本-->
+      <translation>Да</translation>
+    </message>
+    <message>
+      <source>Cancel</source>
+      <translation>Отменить</translation>
+    </message>
+	<message>
+      <source>Abort</source>
+      <translation>Выход</translation>
+    </message>
+    <message>
+      <source>Retry</source>
+      <translation>Повторить</translation>
+    </message>
+	<message>
+      <source>Yes</source>
+      <translation>ОК</translation>
+    </message>
+	<message>
+      <source>No</source>
+      <translation>Нет</translation>
+    </message>
+	<message>
+      <source>Ignore</source>
+      <translation>Игнорировать</translation>
+    </message>
+	<message>								<!--MessageBox内提示信息的文本-->
+      <source>Close_Win_Description</source>
+      <translation>Если вы выйдете сейчас, вы не сможете \nзавершить установку.\nВы уверены, что хотите выйти?</translation>
+    </message>
+	<message>								<!--MessageBox内提示信息的文本-->
+      <source>Run_Already_Tip</source>
+      <translation>Программа уже запущена. </translation>
+    </message>
+  </context>
+  
+  <context name="mainWindow">				<!--主界面上的文本信息-->
+	<message>								<!--机型名称-->
+	  <source>Select_Device_Des</source>			
+	  <translation>Сначала выберите вашу модель перед началом установки драйвера. </translation>
+	</message>
+	<message>
+		<source>CopyRight_Info</source>
+		<translation>Copyright © 2017 TP-Link Technologies Co., Ltd. Все права защищены. </translation>
+	</message>
+  </context>
+</language>

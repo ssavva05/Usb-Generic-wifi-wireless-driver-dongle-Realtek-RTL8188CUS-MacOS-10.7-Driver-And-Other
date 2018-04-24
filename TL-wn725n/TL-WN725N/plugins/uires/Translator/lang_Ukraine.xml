@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language name="ch" guid="{0DAEDE3C-6B94-4a81-9A55-C304FDD69D98}">
+  <context>
+    <!--没有上下文的翻译-->
+  </context>
+  <context name="messagebox">				<!--MessageBox弹窗上的文本信息-->
+    <message>
+      <source>OK</source>					<!--按键相关的文本-->
+      <translation>Так</translation>
+    </message>
+    <message>
+      <source>Cancel</source>
+      <translation>Ні</translation>
+    </message>
+	<message>
+      <source>Abort</source>
+      <translation>Вихід</translation>
+    </message>
+    <message>
+      <source>Retry</source>
+      <translation>Повторити спробу</translation>
+    </message>
+	<message>
+      <source>Yes</source>
+      <translation>Так</translation>
+    </message>
+	<message>
+      <source>No</source>
+      <translation>Ні</translation>
+    </message>
+	<message>
+      <source>Ignore</source>
+      <translation>Ігнорувати</translation>
+    </message>
+	<message>								<!--MessageBox内提示信息的文本-->
+      <source>Close_Win_Description</source>
+      <translation>Процес установки не завершено. У разі виходу,\nВи не зможете підключитись до Вашої Wi-Fi мережі. \nВи впевнені, що хочете вийти? </translation>
+    </message>
+	<message>
+	  <source>Close_WPSTool_Install_Description</source>
+	  <translation>Процес установки не завершено. У разі виходу WPS \nутиліта не буде встановлена. Ви впевнені, що хочете вийти? </translation>
+	</message>
+	<message>
+      <source>Choose_Remove_Driver_Description</source>
+      <translation>Якщо Ви видалите драйвер, Ви більше не зможете \nпідключитись до бездротової мережі. Ви впевнені, що \nхочете видалити його?</translation>
+    </message>
+	<message>
+      <source>Choose_Remove_All_Description</source>
+      <translation>Якщо Ви видалите драйвер та WPS утиліту, Ви більше не зможете \nпідключитись до бездротової мережі. Ви впевнені, що \nхочете видалити їх?</translation>
+    </message>
+	<message>
+	  <source>Unknown_System_Version</source>
+	  <translation>Неможливо визначити версію Вашої ОС. \nПроцес установки буде завершено.</translation>
+	</message>
+	<message>
+	  <source>Installer_Do_Not_Support_This_System</source>
+	  <translation>Налаштування не підтримуються на Вашій ОС.\nБудь ласка, оберіть відповідний програмний пакет.</translation>
+	</message>
+	<message>
+	  <source>Driver_Do_Not_Support_This_System</source>
+	  <translation>Драйвер не підтримується Вашою ОС. \nПроцес установки буде завершено. </translation>
+	</message>
+	<message>
+	  <source>Error_Request_Administrator</source>
+	  <translation>Для використання даного ПЗ, Ви повинні запустити його від імені адміністратора.</translation>
+	</message>
+	<message>
+	  <source>Error_Progress</source>
+	  <translation>Виникла помилка у встановлені програми. \nПроцес установки буде завершено. </translation>
+	</message>
+	<message>
+	  <source>Error_File_Create_Failed</source>
+	  <translation>Неможливо створити файл.</translation>
+	</message>
+	<message>
+	  <source>Error_Unable_To_Create_File</source>
+	  <translation>У Вас немає дозволу на створення тимчасових файлів. \nПроцес установки буде завершено.</translation>
+	</message>
+	<message>
+	  <source>Error_Launch</source>
+	  <translation>Неможливо запустити програму налаштування.</translation>
+	</message>
+	<message>
+	  <source>Error_Load</source>
+	  <translation>Неможливо завантажити вказані файли.</translation>
+	</message>
+	<message>
+	  <source>Error_Not_Enough_Space</source>
+	  <translation>Недостатньо вільного місця.</translation>
+	</message>
+	<message>
+	  <source>Error_Something_Wrong</source>
+	  <translation>У процесі установки виникла помилка.</translation>
+	</message>
+	<message>
+	  <source>Loading_Info</source>
+	  <translation>Підготовка процесу установки….</translation>
+	</message>
+	<message>
+	  <source>WPSTool_Install_Attention</source>
+	  <translation>Ви вже встановили WPS утиліту для іншого пристрою. \nЯкщо Ви хочете встановити WPS утиліту для цього пристрою, \nбудь ласка, спочатку, видаліть попередню версію. </translation>
+	</message>
+	<message>
+	  <source>Maintain_Quit_Attention</source>
+	  <translation>Ви впевнені що хочете вийти?</translation>
+	</message>
+	<message>
+	  <source>Driver_Installed_Attention</source>
+	  <translation>Ви вже встановили драйвер. \nЯкщо Ви хочете встановити новий драйвер, \nбудь ласка, спочатку, видаліть попередню версію. </translation>
+	</message>
+	<message>
+	  <source>Install_Setup_Already_Run</source>
+	  <translation>Програма налаштування вже виконується.</translation>
+	</message>
+	<message>
+	  <source>Uninstall_Setup_Already_Run</source>
+	  <translation>Програма вже видаляється.</translation>
+	</message>
+  </context>
+  
+  <context name="mainWindow">				<!--主界面上的文本信息-->
+	<message>								<!--机型名称-->
+	  <source>PrintDash</source>			
+	  <translation>———                         ———</translation>
+	</message>
+	<message>								<!--机型名称-->
+	  <source>WPS_Name</source>			
+	  <translation>——— Утиліта WPS ———</translation>
+	</message>
+	
+	<!--查询网卡页面-->
+	<message>								<!--查找网卡页面上的显示文本-->
+		<source>Searching_Card_Description</source>
+		<translation>Пошук Вашого адаптера…</translation>
+	</message>
+	
+	<!--无法查找到网卡提示页面-->
+	<message>								<!--无法查找到指定网卡时的提示信息-->
+		<source>Card_Not_Exist_Description</source>
+		<translation>Неможливо знайти Ваш адаптер. \nБудь ласка, впевніться, що адаптер підключено належним чином, а Ви обрали правильну модель.</translation>
+	</message>
+	<message>								<!--无法查找到指定网卡时confirm按键上的提示信息-->
+		<source>Confirm_Btn</source>
+		<translation>Повторити спробу</translation>
+	</message>
+	
+	<!--驱动安装完成页面-->
+	<message>								<!--驱动安装完成页面的文本提示信息-->
+	  <source>Driver_Install_Finish_Description</source>
+	  <translation>Драйвер встановлено! \nТепер Ви можете підключити Ваш ПК до бездротової Wi-Fi мережі.</translation>
+	</message>
+	<message>								<!--驱动安装完成页面按键的提示信息-->
+	  <source>Driver_Install_Finish_Btn</source>
+	  <translation>ОК</translation>
+	</message>
+	
+	<!--提示是否安装WPSTool页面-->
+	<message>								<!--检测到支持WPSTool的提示信息-->
+	  <source>Detect_Support_WPSTool_Description</source>
+	  <translation>Чудово! Ваш адаптер підтримує WPS.</translation>
+	</message>
+	<message>								<!--insert success word into WPS_des png-->
+	  <source>wps_connect_success</source>
+	  <translation>Успішно</translation>
+	</message>	
+	<message>								<!--询问是否安装WPSTool提示信息-->
+	  <source>Ask_To_Install_WPSTool_Description</source>
+	  <translation>За допомогою WPS (Стандарт безпечного налаштування бездротової мережі),\nВи можете легко підключатись до мережі лише одним натиском кнопки. Для використання\nцієї функції, спочатку, встановіть міні-утиліту WPS для роботи. Встановити WPS?</translation>
+	</message>
+	<message>								<!--确认安装WPSTool按键的提示信息-->
+	  <source>Yes_To_Install_WPSTool_Btn</source>
+	  <translation>Так</translation>
+	</message>
+	<message>								<!--不安装WPSTool按键的提示信息-->
+	  <source>No_To_Install_WPSTool_Btn</source>
+	  <translation>Ні</translation>
+	</message>
+	
+	<!--WPSTool安装路径选择页面-->
+	<message>								<!--WPSTool功能描述-->
+	  <source>WPSTool_Function_Description</source>
+	  <translation>Вкажіть шлях до файлу для WPS утиліти.</translation>
+	</message>
+	<message>								<!--路径选择按键上的提示信息-->
+	  <source>Path_Selection_Btn</source>
+	  <translation>Перегляд</translation>
+	</message>
+	<message>
+	  <source>Path_Select_Guid</source>		<!--路径选择弹出窗口的提示信息-->
+	  <translation>Вкажіть шлях до файлу для WPS утиліти.</translation>
+	</message>
+	<message>								<!--开始安装WPSTool按键上的提示信息-->
+	  <source>Start_Install_WPSTool_Btn</source>
+	  <translation>Почати</translation>
+	</message>
+	
+	<!--WPSTool安装完成页面-->
+	<message>								<!--WPSTool安装完成时的描述信息-->
+	  <source>WPSTool_Install_Finish_Description</source>
+	  <translation>WPS утиліту встановлено!\nЩоб підключитись до Wi-Fi, натисніть кнопку WPS на Вашому маршрутизаторі. Натисніть та\nутримуйте кнопку WPS на Вашому адаптері протягом 2 хвилин, доки не з'явиться вікно WPS утиліти.</translation>
+	</message>
+	<message>								<!--WPSTool安装完成时的Note信息-->
+	  <source>WPSTool_Install_Finish_Note</source>
+	  <translation></translation>
+	</message>
+	<message>								<!--WPSTool安装完成按键上的提示信息-->
+	  <source>WPSTool_Install_Finish_Btn</source>
+	  <translation>ОК</translation>
+	</message>
+	
+	<!--维护模式选择页面-->
+	<message>								<!--维护模式选择页面的指引信息-->
+	  <source>Maintain_Description</source>
+	  <translation>Оберіть один з вказаних нижче способів для зміни параметрів\nвстановленого ПЗ. </translation>
+	</message>
+	<message>								<!--repair mode下选择框的提示信息-->
+	  <source>Repair_Mode_Description</source>
+	  <translation>Усунути проблему з драйвером (та WPS утилітою), якщо така\nіснує.</translation>
+	</message>
+	<message>								<!--remove mode下选择框的提示信息-->
+	  <source>Remove_Mode_Description</source>
+	  <translation>Видалити драйвер (та WPS утиліту) з Вашого ПК.</translation>
+	</message>
+	<message>								<!--repair mode下选择框的提示信息-->
+	  <source>Repair_Driver_Description</source>
+	  <translation>Усунути проблему з драйвером, якщо така існує.</translation>
+	</message>
+	<message>								<!--repair mode下选择框的提示信息-->
+	  <source>Repair_All_Description</source>
+	  <translation>Усунути проблему з драйвером та WPS утилітою, якщо така\nіснує.</translation>
+	</message>
+	<message>								<!--remove mode下选择框的提示信息-->
+	  <source>Remove_Driver_Description</source>
+	  <translation>Видалити драйвер з Вашого ПК.</translation>
+	</message>
+	<message>				
+	  <source>Remove_All_Description</source>
+	  <translation>Видалити драйвер та WPS утиліту з Вашого ПК.</translation>
+	</message>
+	
+	<!--Repair Mode完成时的页面-->
+	<message>								<!--repair mode完成时的提示信息-->
+	  <source>Repair_Mode_Finish_Description</source>
+	  <translation>Виправлення успішні! </translation>
+	</message>
+	<message>								<!--repair mode完成时按键的提示信息-->
+	  <source>Repair_Mode_Finish_Btn</source>
+	  <translation>ОК</translation>
+	</message>
+	
+	<!--Remove Mode完成时的页面-->
+	<message>								<!--remove mode完成时的提示信息-->
+	  <source>Remove_Driver_Finish_Description</source>
+	  <translation>Драйвер успішно видалений з Вашого ПК.</translation>
+	</message>
+	<message>								<!--remove mode完成时的提示信息-->
+	  <source>Remove_All_Finish_Description</source>
+	  <translation>Драйвер та WPS утиліта успішно видалені з Вашого ПК.</translation>
+	</message>
+	<message>								<!--remove mode完成时的提示信息-->
+	  <source>Remove_Mode_Finish_Description</source>
+	  <translation>Драйвер успішно видалений з Вашого ПК.</translation>
+	</message>
+	<message>								<!--remove mode完成时按键的提示信息-->
+	  <source>Remove_Mode_Finish_Btn</source>
+	  <translation>ОК</translation>
+	</message>
+	
+	<!--询问用户是否重启电脑页面-->
+	<message>
+	  <source>Ask_To_Reboot_Computer</source>
+	  <translation>Виправлення успішні! \nДля використання Вашого адаптера, будь ласка, перезавантажте Ваш ПК.</translation>
+	</message>
+	<message>
+	  <source>Yes_To_Reboot_Radio</source>
+	  <translation>Так, перезавантажити зараз</translation>
+	</message>
+	<message>
+	  <source>No_To_Reboot_Radio</source>
+	  <translation>Ні, перезавантажити пізніше</translation>
+	</message>
+	<message>
+	  <source>Ask_Reboot_Finish_Btn</source>
+	  <translation>ОК</translation>
+	</message>
+	
+	<!--If user have installed driver but not wps tool, ask to install wps tool or install driver-->
+	<message>
+	  <source>Ask_Install_Driver_WPSTool_Description</source>
+	  <translation>Оберіть один з нижче вказаних варіантів:</translation>
+	</message>
+	<message>
+	  <source>Install_Driver_Description</source>
+	  <translation>Встановити драйвер</translation>
+	</message>
+	<message>
+	  <source>Install_WPSTool_Description</source>
+	  <translation>Встановити WPS Tool</translation>
+	</message>	
+	
+  </context>
+</language>

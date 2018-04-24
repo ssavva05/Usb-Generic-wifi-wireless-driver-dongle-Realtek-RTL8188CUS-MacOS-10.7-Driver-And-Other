@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UIDEF>
+   <font face="Arial" charset="UNICODE" size="14"/>
+
+  <string>
+    <!--需要修改的信息-->
+    <title value="TP-Link网卡驱动(和WPSTool)安装工具"/>
+    <ver value="1.0"/>
+  </string>
+
+  <skin>
+	<!--背景相关-->
+	<imglist name="skin_bkg_shadow" src="IMG_BKG:bkg_shadow" left="7" top="5" right="7" bottom="9"/>
+	<imglist name="skin_bkg_install_finish" src="IMG_BKG:bkg_install_finish"/>
+	<imglist name="skin_bkg_msgbox" src="IMG_BKG:bkg_msgbox"/>
+	<imglist name="skin_bkg_maintain_mode" src="IMG_BKG:bkg_maintain_mode"/>
+	<imglist name="skin_bkg_edit_input" src="IMG_BKG:bkg_edit_input"/>
+	
+	<!--页面上的图片-->
+	<imglist name="skin_success_check" src="IMG_PIC:success_check"/>
+	<imglist name="skin_fail_check" src="IMG_PIC:fail_check"/>
+	<imglist name="skin_wps_logo" src="IMG_PIC:WPS_logo"/>
+	<imglist name="skin_wps_des" src="IMG_PIC:WPS_des"/>
+	<imglist name="skin_repair_ico" src="IMG_PIC:repair_ico"/>
+	<imglist name="skin_remove_ico" src="IMG_PIC:remove_ico"/>
+	<imglist name="skin_msgbox_ico" src="IMG_PIC:msgbox_ico"/>
+	
+	<!--页面上的按键-->
+	<imglist name="skin_mini_win_btn" 			src="IMG_BTN:mini_win_btn" 			states="4"/>
+	<imglist name="skin_close_win_btn" 			src="IMG_BTN:close_win_btn" 		states="4"/>
+	<imglist name="skin_path_select_btn" 		src="IMG_BTN:path_select_btn" 		states="4"/>
+	<imglist name="skin_step_btn" 				src="IMG_BTN:step_btn" 				states="4"/>
+	<imglist name="skin_short_btn_yes" 			src="IMG_BTN:short_btn_yes" 		states="4"/>
+	<imglist name="skin_short_btn_no" 			src="IMG_BTN:short_btn_no" 			states="4"/>
+	<imglist name="skin_msgbox_close_btn" 		src="IMG_BTN:msgbox_close_btn" 		states="4"/>
+	<imglist name="skin_device_id_1" 			src="IMG_BTN:device_1_img"			/>
+	<imglist name="skin_device_id_2" 			src="IMG_BTN:device_2_img" 			/>
+	<imglist name="skin_device_id_3" 			src="IMG_BTN:device_3_img" 			/>
+	<imglist name="skin_enlarge_device_id_1"    src="IMG_BTN:device_1_enlarge_img"/>
+	<imglist name="skin_png_icon_4" src="IMG_BTN:device_4_img"/>
+    <imglist name="skin_png_icon_5" src="IMG_BTN:device_5_img"/>
+    <imglist name="skin_png_icon_6" src="IMG_BTN:device_6_img"/>
+    <imglist name="skin_png_icon_7" src="IMG_BTN:device_7_img"/>
+    <imglist name="skin_png_icon_8" src="IMG_BTN:device_8_img"/>
+    <imglist name="skin_png_icon_9" src="IMG_BTN:device_9_img"/>
+    <imglist name="skin_png_icon_10" src="IMG_BTN:device_10_img"/>
+  </skin>
+
+  <style>
+	<class name="css_edit_window" ncSkin="skin_combox_border" margin-x="2" margin-y="2" />
+	<class name="css_listtree_window" ncSkin="skin_combox_border" margin-x="2" margin-y="2" />
+  </style>
+
+  <objattr>
+   
+  </objattr>
+</UIDEF>

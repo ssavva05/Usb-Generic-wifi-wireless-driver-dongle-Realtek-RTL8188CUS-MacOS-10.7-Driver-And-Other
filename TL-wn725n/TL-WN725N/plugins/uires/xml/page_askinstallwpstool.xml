@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<include>
+  <caption pos="0,0,-0,-0" >
+	<!--检测到支持WPS的描述-->
+	<text name="detect_wps" pos="0,24,600,44" show="1" font="bold:1,size:13" colorText="#005564" align="center" valign="middle">Detect_Support_WPSTool_Description</text>
+	
+    <!--WPS Logo图标-->
+    <!--<img name="img_wps_logo" skin="skin_wps_logo" pos="273,53,327,107" animate="0" />-->
+	<img name="img_wps_des" skin="skin_wps_des" pos="|-200,[25" animate="0"/>
+	
+	<text name="the_dongle_suppot_wps" pos="366,130,491,144" show="1" font="bold:1,size:12" colorText="#36444B" align="center" valign="middle" multiLines="1" interHeight="1">wps_connect_success</text>
+
+	<!--询问用户是否安装WPS Tool-->
+	<text name="ask_install_wps" pos="0,225,600,237" show="1" font="bold:1,size:12" colorText="#36444B" align="center" valign="middle" multiLines="1" interHeight="1">Ask_To_Install_WPSTool_Description</text>
+	
+	<!--确认按键-->
+	<imgbtn name="btn_yes_install_wpstool" skin="skin_short_btn_yes_wpstool" pos="211,270,295,302" font="bold:1,size:14" colorText="#FFFFFF" colorTextHover="#FFFFFF" colorTextPush="#FFFFFF" animate="1">Yes_To_Install_WPSTool_Btn</imgbtn>
+	
+	<!--取消按键-->
+	<imgbtn name="btn_no_install_wpstool" skin="skin_short_btn_no" pos="305,270,389,302" font="bold:1,size:14" colorText="#4ACBD6" colorTextHover="#FFFFFF" colorTextPush="#FFFFFF" animate="1">No_To_Install_WPSTool_Btn</imgbtn>
+	
+  </caption>
+</include>

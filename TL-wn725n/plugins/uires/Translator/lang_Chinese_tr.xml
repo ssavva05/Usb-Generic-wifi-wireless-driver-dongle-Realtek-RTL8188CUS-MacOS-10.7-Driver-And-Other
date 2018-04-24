@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language name="English" guid="{0DAEDE3C-6B94-4a81-9A55-C304FDD69D98}">
+  <context>
+    <!--没有上下文的翻译-->
+  </context>
+  <context name="messagebox">				<!--MessageBox弹窗上的文本信息-->
+    <message>
+      <source>OK</source>					<!--按键相关的文本-->
+      <translation>是</translation>
+    </message>
+    <message>
+      <source>Cancel</source>
+      <translation>取消</translation>
+    </message>
+	<message>
+      <source>Abort</source>
+      <translation>離開</translation>
+    </message>
+    <message>
+      <source>Retry</source>
+      <translation>重試</translation>
+    </message>
+	<message>
+      <source>Yes</source>
+      <translation>確定</translation>
+    </message>
+	<message>
+      <source>No</source>
+      <translation>否</translation>
+    </message>
+	<message>
+      <source>Ignore</source>
+      <translation>忽略</translation>
+    </message>
+	<message>								<!--MessageBox内提示信息的文本-->
+      <source>Close_Win_Description</source>
+      <translation>如果現在離開，您將\n完成安裝。\n確定要離開嗎？</translation>
+    </message>
+	<message>								<!--MessageBox内提示信息的文本-->
+      <source>Run_Already_Tip</source>
+      <translation>該程式已經在運作中。</translation>
+    </message>
+  </context>
+  
+  <context name="mainWindow">				<!--主界面上的文本信息-->
+	<message>								<!--机型名称-->
+	  <source>Select_Device_Des</source>			
+	  <translation>首先，請選擇產品型號以開始安裝驅動程式。</translation>
+	</message>
+	<message>
+		<source>CopyRight_Info</source>
+		<translation>版權所有 © 2017 TP-Link Technologies Co., Ltd. 保留所有權利。</translation>
+	</message>
+  </context>
+</language>

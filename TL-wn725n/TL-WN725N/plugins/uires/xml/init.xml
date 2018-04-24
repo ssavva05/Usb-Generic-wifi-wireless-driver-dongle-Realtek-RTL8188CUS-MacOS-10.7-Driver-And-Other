@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UIDEF>
+   <font face="Arial" charset="UNICODE" size="14"/>
+
+  <string>
+    <!--需要修改的信息-->
+    <title value="TP-Link网卡驱动(和WPSTool)安装工具"/>
+    <ver value="1.0"/>
+  </string>
+
+  <skin>
+	<!--背景相关-->
+	<imglist name="skin_bkg_shadow" src="IMG_BKG:bkg_shadow" left="7" top="5" right="7" bottom="9"/>
+	<imglist name="skin_bkg_install_finish" src="IMG_BKG:bkg_install_finish"/>
+	<imglist name="skin_bkg_msgbox" src="IMG_BKG:bkg_msgbox"/>
+	<imglist name="skin_bkg_maintain_mode" src="IMG_BKG:bkg_maintain_mode"/>
+	<imglist name="skin_bkg_edit_input" src="IMG_BKG:bkg_edit_input"/>
+	
+	<!--页面上的图片-->
+	<imglist name="skin_success_check" src="IMG_PIC:success_check"/>
+	<imglist name="skin_fail_check" src="IMG_PIC:fail_check"/>
+	<imglist name="skin_wps_logo" src="IMG_PIC:WPS_logo"/>
+	<imglist name="skin_wps_des" src="IMG_PIC:WPS_des"/>
+	<imglist name="skin_repair_ico" src="IMG_PIC:repair_ico"/>
+	<imglist name="skin_remove_ico" src="IMG_PIC:remove_ico"/>
+	<imglist name="skin_msgbox_ico" src="IMG_PIC:msgbox_ico"/>
+	<imglist name="skin_install_driver_ico" src="IMG_PIC:install_driver_ico"/>
+	<imglist name="skin_install_wpstool_ico" src="IMG_PIC:install_wpstool_ico"/>
+	
+	<!--页面上的按键-->
+	<imglist name="skin_mini_win_btn" src="IMG_BTN:mini_win_btn" states="4"/>
+	<imglist name="skin_close_win_btn" src="IMG_BTN:close_win_btn" states="4"/>
+	<imglist name="skin_path_select_btn" src="IMG_BTN:path_select_btn" states="4"/>
+	<imglist name="skin_step_btn" src="IMG_BTN:step_btn" states="4"/>
+	<imglist name="skin_short_btn_yes" src="IMG_BTN:short_btn_yes" states="4"/>
+	<imglist name="skin_short_btn_yes_wpstool" src="IMG_BTN:short_btn_yes_wpstool" states="4"/>
+	<imglist name="skin_short_btn_no" src="IMG_BTN:short_btn_no" states="4"/>
+	<imglist name="skin_msgbox_close_btn" src="IMG_BTN:msgbox_close_btn" states="4"/>
+	<imglist name="skin_radio_check" src="IMG_BTN:radio_check" states="8"/>
+	<imglist name="skin_radio_bkg_btn" src="IMG_BTN:radio_bkg_btn" states="4"/>
+	<imglist name="skin_radio_select_btn" src="IMG_BTN:radio_select_btn" states="4"/>
+	
+	<!--进度条-->
+	<imgframe name="skin_progbar_full" src="IMG_PROGBAR:progbar_full" left="5" top="2" right="5" bottom="2" />
+	<imgframe name="skin_progbar_bkg" src="IMG_PROGBAR:progbar_bkg" left="5" top="2" right="5" bottom="2" />
+	
+	<!--GIF动画-->
+	<gif name="SearchCard_gif" src="GIF:SearchCard_gif"/>
+	<gif name="Searching_gif" src="GIF:Searching_gif"/>
+	<gif name="Installing_gif" src="GIF:Installing_gif"/>
+	<gif name="Repairing_gif" src="GIF:Repairing_gif"/>
+	<gif name="Removing_gif" src="GIF:Removing_gif"/>
+  </skin>
+
+  <style>
+  <class name="css_edit_window" valign="middle" margin-x="1" margin-y="1" />
+    <!-- <class name="normalbtn" font="" colorText="#385e8b" colorTextDisable="#91a7c0" textMode="25" cursor="hand" margin-x="0"/>
+    <class name="cls_btn_weblink" cursor="hand" colorText="#1e78d5" colorTextHover="#1e78d5" font="italic:0" fontHover="underline:1,italic:0" />
+    
+    <class name="css_imgbtn" font="" colorText="#6C8BA9" colorTextDisable="#91a7c0" cursor="hand"/>
+    <class name="css_chk" font="" colorText="#6C8BA9" colorTextDisable="#91a7c0" cursor="hand"/>
+    <class name="css_text" font="" colorText="#6C8BA9" colorTextDisable="#91a7c0" cursor="hand"/>
+
+    <class name="css_edit_window"  colorBorder="#6C8BA9" valign="middle" margin-x="1" margin-y="1" />
+    <class name="css_edit" textmode="24"  colorText="#000000"/>-->
+  </style>
+
+  <objattr>
+   <!--  <imgbtn class="css_imgbtn"/>
+    <check  class="css_chk"/>
+    <link class="cls_btn_weblink"/>
+    <text class="css_text"/>
+    <edit class="css_edit"/>
+    <progress  bkgndSkin="prog_bkgnd" posSkin="prog_bar" value="20" min="0" max="100"/> -->
+	<progress bkgndSkin="skin_progbar_bkg" posSkin="skin_progbar_full" value="0" min="0" max="100" />
+  </objattr>
+</UIDEF>

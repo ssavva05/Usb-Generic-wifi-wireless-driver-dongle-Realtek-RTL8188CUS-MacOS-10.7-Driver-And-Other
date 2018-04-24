@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<include>
+  <caption pos="0,0,-0,-0" >
+	<!--Dash-->
+	<text name="dash" pos="0,83,600,97" show="1" font="bold:1,size:13" colorText="#005564" align="center" valign="middle">PrintDash</text>	  
+	<!--机型描述-->
+	<text name="dev_name_15" pos="0,83,600,97" show="1" font="bold:1,size:13" colorText="#005564" align="center" valign="middle">device' name</text>
+    <!--驱动安装完成页面上显示的图片-->
+    <img name="img_repair_success_check" skin="skin_success_check" pos="280,121,320,161" animate="0" />
+	<!--询问是否重启电脑的提示信息-->
+	<text name="ask_reboot_computer_text" pos="0,173,600,193" font="bold:1,size:12" show="1" colorText="#36444B" align="center" valign="middle" interHeight="2" multiLines="1">
+	  Ask_To_Reboot_Computer
+	</text>
+	<!--radio box选择-->
+	<!-- <group pos="2,[0,@596,@50" colorLine1="#FFFFFF" colorLine2="#FFFFFF"> -->
+	<window pos="0,[10,600,[60">
+		<!-- <radio pos="205,[12" id="10000" name="yse_to_reboot" checked="1" font="bold:1,size:12" colorText="#36444B" skin="skin_radio_bkg_btn" focusSkin="skin_radio_select_btn">Yes, I will restart the computer now.</radio> --> <!--font="bold:1,size:12" colorText="#36444B"-->
+		<!-- <radio pos="205,[8" id="10001" name="no_to_reboot" font="bold:1,size:12" colorText="#36444B" skin="skin_radio_bkg_btn" focusSkin="skin_radio_select_btn">No, I will restart later.</radio> --> <!--font="bold:1,size:12" colorText="#36444B"-->
+	<radio  id="10000" name="yes_to_reboot" pos="245,[12" font="bold:1,size:12" checked="1" colorText="#36444B" skin="skin_radio_check" focusSkin="" focusable="0">Yes_To_Reboot_Radio</radio>
+	<radio  id="10001" name="no_to_reboot" pos="245,[8" font="bold:1,size:12" checked="0" colorText="#36444B" skin="skin_radio_check" focusSkin="" focusable="0">No_To_Reboot_Radio</radio>
+	</window>
+	<!-- </group> --><!--skin="skin_radio_check"-->
+	<!-- <img name="yes_to_reboot_radio_bkg" skin="skin_radio_bkg_btn" pos="205,205" offset="-1,0" cursor="hand" msgTransparent="0"/>
+	<img name="yes_to_reboot_radio_select" skin="skin_radio_select_btn" pos="205,205" offset="-1,0" cursor="hand" msgTransparent="0"/> -->
+	<!--Complete按键-->
+	<imgbtn name="btn_ask_reboot_complete" pos="|-70,[24" skin="skin_step_btn" font="bold:1,size:14"  colorText="#4ACBD6" colorTextHover="#FFFFFF" colorTextPush="#FFFFFF" animate="1">Ask_Reboot_Finish_Btn</imgbtn>
+	
+    <!--驱动安装完成时的文字描述-->
+	<!-- <text name="install_finish_des" pos="0,173,600,191" font="bold:1,size:12" show="1" colorText="#36444B" align="center" valign="middle">Driver_Install_Finish_Description</text> -->
+	<!--安装完成按键-->
+    <!-- <imgbtn name="btn_install_driver_finish" skin="skin_step_btn" pos="230,235,370,267" font="bold:1,size:14"  colorText="#4ACBD6" colorTextHover="#FFFFFF" colorTextPush="#FFFFFF" animate="1" >Driver_Install_Finish_Btn</imgbtn> -->
+  </caption>
+</include>

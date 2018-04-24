@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language name="English" guid="{0DAEDE3C-6B94-4a81-9A55-C304FDD69D98}">
+  <context>
+    <!--没有上下文的翻译-->
+  </context>
+  <context name="messagebox">				<!--MessageBox弹窗上的文本信息-->
+    <message>
+      <source>OK</source>					<!--按键相关的文本-->
+      <translation>예</translation>
+    </message>
+    <message>
+      <source>Cancel</source>
+      <translation>취소</translation>
+    </message>
+	<message>
+      <source>Abort</source>
+      <translation>나가기</translation>
+    </message>
+    <message>
+      <source>Retry</source>
+      <translation>다시 시도해 보십시오.</translation>
+    </message>
+	<message>
+      <source>Yes</source>
+      <translation>OK</translation>
+    </message>
+	<message>
+      <source>No</source>
+      <translation>아니요</translation>
+    </message>
+	<message>
+      <source>Ignore</source>
+      <translation>무시</translation>
+    </message>
+	<message>								<!--MessageBox内提示信息的文本-->
+      <source>Close_Win_Description</source>
+      <translation>지금 종료하면설치를 완료할 수 없습니다.종료하시겠습니까？</translation>
+    </message>
+	<message>								<!--MessageBox内提示信息的文本-->
+      <source>Run_Already_Tip</source>
+      <translation>프로그램이 이미 실행 중입니다.</translation>
+    </message>
+  </context>
+  
+  <context name="mainWindow">				<!--主界面上的文本信息-->
+	<message>								<!--机型名称-->
+	  <source>Select_Device_Des</source>			
+	  <translation>먼저 모델을 선택하여 드라이버를 설치하십시오.</translation>
+	</message>
+	<message>
+		<source>CopyRight_Info</source>
+		<translation>Copyright © 2017 TP-Link Technologies Co., Ltd. All rights reserved.</translation>
+	</message>
+  </context>
+</language>

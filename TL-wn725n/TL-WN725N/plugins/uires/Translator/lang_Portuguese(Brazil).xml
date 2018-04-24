@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language name="ch" guid="{0DAEDE3C-6B94-4a81-9A55-C304FDD69D98}">
+  <context>
+    <!--没有上下文的翻译-->
+  </context>
+  <context name="messagebox">				<!--MessageBox弹窗上的文本信息-->
+    <message>
+      <source>OK</source>					<!--按键相关的文本-->
+      <translation>Sim</translation>
+    </message>
+    <message>
+      <source>Cancel</source>
+      <translation>Não</translation>
+    </message>
+	<message>
+      <source>Abort</source>
+      <translation>Sair</translation>
+    </message>
+    <message>
+      <source>Retry</source>
+      <translation>Tente novamente</translation>
+    </message>
+	<message>
+      <source>Yes</source>
+      <translation>Sim</translation>
+    </message>
+	<message>
+      <source>No</source>
+      <translation>Não</translation>
+    </message>
+	<message>
+      <source>Ignore</source>
+      <translation>Ignorar</translation>
+    </message>
+	<message>								<!--MessageBox内提示信息的文本-->
+      <source>Close_Win_Description</source>
+      <translation>A instalação está completa. Se você sair agora, \nvocê não poderá conectar à sua rede Wi-Fi.\nTem certeza de que deseja sair?</translation>
+    </message>
+	<message>
+	  <source>Close_WPSTool_Install_Description</source>
+	  <translation>A instalação está completa. Se você sair agora, a WPS \nTool não será instalada. Tem certeza de que deseja sair?</translation>
+	</message>
+	<message>
+      <source>Choose_Remove_Driver_Description</source>
+      <translation>Caso remova o driver, você não poderá mais \nconectar à sua rede Wi-Fi. Tem certeza de que \ndeseja removê-lo?</translation>
+    </message>
+	<message>
+      <source>Choose_Remove_All_Description</source>
+      <translation>Caso remova o driver e WPS Tool, você não poderá \nmais conectar à sua rede Wi-Fi. \nTem certeza de que deseja removê-la?</translation>
+    </message>
+	<message>
+	  <source>Unknown_System_Version</source>
+	  <translation>Impossível detectar sua versão de sistema. \nA instalação irá parar agora.</translation>
+	</message>
+	<message>
+	  <source>Installer_Do_Not_Support_This_System</source>
+	  <translation>A configuração não é suportada no seu sistema operacional. \nFavor selecionar o pacote correto.</translation>
+	</message>
+	<message>
+	  <source>Driver_Do_Not_Support_This_System</source>
+	  <translation>O driver não é suportado no seu sistema operacional. \nA instalação irá parar agora.</translation>
+	</message>
+	<message>
+	  <source>Error_Request_Administrator</source>
+	  <translation>Você deve operar como administrador para utilizar este software.</translation>
+	</message>
+	<message>
+	  <source>Error_Progress</source>
+	  <translation>Algo de errado ocorreu com a instalação do programa. \nA instalação irá parar agora.</translation>
+	</message>
+	<message>
+	  <source>Error_File_Create_Failed</source>
+	  <translation>Não é possível criar o arquivo.</translation>
+	</message>
+	<message>
+	  <source>Error_Unable_To_Create_File</source>
+	  <translation>Você não tem permissão para criar arquivos temporários. \nA instalação irá parar agora.</translation>
+	</message>
+	<message>
+	  <source>Error_Launch</source>
+	  <translation>Não é possível iniciar o prorama de configuração.</translation>
+	</message>
+	<message>
+	  <source>Error_Load</source>
+	  <translation>Impossível carregar arquivos específicos.</translation>
+	</message>
+	<message>
+	  <source>Error_Not_Enough_Space</source>
+	  <translation>Armazenamento insuficiente.</translation>
+	</message>
+	<message>
+	  <source>Error_Something_Wrong</source>
+	  <translation>Algo de errado ocorreu com a instalação do programa.</translation>
+	</message>
+	<message>
+	  <source>Loading_Info</source>
+	  <translation>Preparando a configuração...</translation>
+	</message>
+	<message>
+	  <source>WPSTool_Install_Attention</source>
+	  <translation>Você já instalou a WPS Tool para outro produto.</translation>
+	</message>
+	<message>
+	  <source>Maintain_Quit_Attention</source>
+	  <translation>Tem certeza de que deseja sair?</translation>
+	</message>
+	<message>
+	  <source>Driver_Installed_Attention</source>
+	  <translation>Você já instalou um driver. \nCaso deseja instalar um novo driver para este produto, \nfavor desinstalar o anterior primeiramente.</translation>
+	</message>
+	<message>
+	  <source>Install_Setup_Already_Run</source>
+	  <translation>O programa de configuração já está operando.</translation>
+	</message>
+	<message>
+	  <source>Uninstall_Setup_Already_Run</source>
+	  <translation>O programa de desinstalação já está operando.</translation>
+	</message>
+  </context>
+  
+  <context name="mainWindow">				<!--主界面上的文本信息-->
+	<message>								<!--机型名称-->
+	  <source>PrintDash</source>			
+	  <translation>———                         ———</translation>
+	</message>
+	<message>								<!--机型名称-->
+	  <source>WPS_Name</source>			
+	  <translation>——— WPS Tool ———</translation>
+	</message>
+	
+	<!--查询网卡页面-->
+	<message>								<!--查找网卡页面上的显示文本-->
+		<source>Searching_Card_Description</source>
+		<translation>Procurando seu adaptador...</translation>
+	</message>
+	
+	<!--无法查找到网卡提示页面-->
+	<message>								<!--无法查找到指定网卡时的提示信息-->
+		<source>Card_Not_Exist_Description</source>
+		<translation>Não é possível localizar seu adaptador.\nFavor certificar-se de que inseriu e selecionou o modelo correto de adaptador. </translation>
+	</message>
+	<message>								<!--无法查找到指定网卡时confirm按键上的提示信息-->
+		<source>Confirm_Btn</source>
+		<translation>Tente novamente</translation>
+	</message>
+	
+	<!--驱动安装完成页面-->
+	<message>								<!--驱动安装完成页面的文本提示信息-->
+	  <source>Driver_Install_Finish_Description</source>
+	  <translation>O driver está instalado. \nAgora você pode conectar seu computador a uma rede Wi-Fi.</translation>
+	</message>
+	<message>								<!--驱动安装完成页面按键的提示信息-->
+	  <source>Driver_Install_Finish_Btn</source>
+	  <translation>OK</translation>
+	</message>
+	
+	<!--提示是否安装WPSTool页面-->
+	<message>								<!--检测到支持WPSTool的提示信息-->
+	  <source>Detect_Support_WPSTool_Description</source>
+	  <translation>Ótimo! Seu adaptador suporta WPS.</translation>
+	</message>
+	<message>								<!--insert success word into WPS_des png-->
+	  <source>wps_connect_success</source>
+	  <translation>Feito com sucesso</translation>
+	</message>	
+	<message>								<!--询问是否安装WPSTool提示信息-->
+	  <source>Ask_To_Install_WPSTool_Description</source>
+	  <translation>Com WPS (Configuração Wi-Fi Protegida), você pode conectar sem grandes \nesforços apenas apertando um botão. Para usar esta função, instale primeiramente\n nossa mini WPS Tool que irá ajudá-lo durante o processo. Instalar WPS agora?</translation>
+	</message>
+	<message>								<!--确认安装WPSTool按键的提示信息-->
+	  <source>Yes_To_Install_WPSTool_Btn</source>
+	  <translation>Sim</translation>
+	</message>
+	<message>								<!--不安装WPSTool按键的提示信息-->
+	  <source>No_To_Install_WPSTool_Btn</source>
+	  <translation>Não</translation>
+	</message>
+	
+	<!--WPSTool安装路径选择页面-->
+	<message>								<!--WPSTool功能描述-->
+	  <source>WPSTool_Function_Description</source>
+	  <translation>Selecione um arquivo de localização para a WPS Tool.</translation>
+	</message>
+	<message>								<!--路径选择按键上的提示信息-->
+	  <source>Path_Selection_Btn</source>
+	  <translation>Exibir</translation>
+	</message>
+	<message>
+	  <source>Path_Select_Guid</source>		<!--路径选择弹出窗口的提示信息-->
+	  <translation>Selecione um arquivo de localização para a WPS Tool.</translation>
+	</message>
+	<message>								<!--开始安装WPSTool按键上的提示信息-->
+	  <source>Start_Install_WPSTool_Btn</source>
+	  <translation>Iniciar</translation>
+	</message>
+	
+	<!--WPSTool安装完成页面-->
+	<message>								<!--WPSTool安装完成时的描述信息-->
+	  <source>WPSTool_Install_Finish_Description</source>
+	  <translation>A WPS Tool está instalada.Para conectar seu Wi-Fi, pressione o botão WPS\n no seu roteador. Dentro de dois minutos, pressione e segure o botão WPS no seu adaptador\n até que a WPS Tool seja aberta.</translation>
+	</message>
+	<message>								<!--WPSTool安装完成时的Note信息-->
+	  <source>WPSTool_Install_Finish_Note</source>
+	  <translation></translation>
+	</message>
+	<message>								<!--WPSTool安装完成按键上的提示信息-->
+	  <source>WPSTool_Install_Finish_Btn</source>
+	  <translation>OK</translation>
+	</message>
+	
+	<!--维护模式选择页面-->
+	<message>								<!--维护模式选择页面的指引信息-->
+	  <source>Maintain_Description</source>
+	  <translation>Selecione uma opção abaixo para modificar o software instalado.</translation>
+	</message>
+	<message>								<!--repair mode下选择框的提示信息-->
+	  <source>Repair_Mode_Description</source>
+	  <translation>Reparar o driver (e a WPS Tool) caso um problema seja encontrado.</translation>
+	</message>
+	<message>								<!--remove mode下选择框的提示信息-->
+	  <source>Remove_Mode_Description</source>
+	  <translation>Remover o driver (e a WPS Tool) do seu computador.</translation>
+	</message>
+	<message>								<!--repair mode下选择框的提示信息-->
+	  <source>Repair_Driver_Description</source>
+	  <translation>Reparar o driver caso um problema seja encontrado.</translation>
+	</message>
+	<message>								<!--repair mode下选择框的提示信息-->
+	  <source>Repair_All_Description</source>
+	  <translation>Reparar o driver e a WPS Tool caso um problema seja\nencontrado.</translation>
+	</message>
+	<message>								<!--remove mode下选择框的提示信息-->
+	  <source>Remove_Driver_Description</source>
+	  <translation>Remover o driver do seu computador.</translation>
+	</message>
+	<message>				
+	  <source>Remove_All_Description</source>
+	  <translation>Remover o driver e a WPS Tool do seu computador.</translation>
+	</message>
+	
+	<!--Repair Mode完成时的页面-->
+	<message>								<!--repair mode完成时的提示信息-->
+	  <source>Repair_Mode_Finish_Description</source>
+	  <translation>Reparo feito com sucesso.</translation>
+	</message>
+	<message>								<!--repair mode完成时按键的提示信息-->
+	  <source>Repair_Mode_Finish_Btn</source>
+	  <translation>OK</translation>
+	</message>
+	
+	<!--Remove Mode完成时的页面-->
+	<message>								<!--remove mode完成时的提示信息-->
+	  <source>Remove_Driver_Finish_Description</source>
+	  <translation>O driver foi removido do seu computador com sucesso.</translation>
+	</message>
+	<message>								<!--remove mode完成时的提示信息-->
+	  <source>Remove_All_Finish_Description</source>
+	  <translation>O driver e a WPS Tool foram removidos do seu computador com sucesso.</translation>
+	</message>
+	<message>								<!--remove mode完成时的提示信息-->
+	  <source>Remove_Mode_Finish_Description</source>
+	  <translation>O driver e a WPS Tool foram removidos do seu computador com sucesso.</translation>
+	</message>
+	<message>								<!--remove mode完成时按键的提示信息-->
+	  <source>Remove_Mode_Finish_Btn</source>
+	  <translation>OK</translation>
+	</message>
+	
+	<!--询问用户是否重启电脑页面-->
+	<message>
+	  <source>Ask_To_Reboot_Computer</source>
+	  <translation>Reparo feito com sucesso. \nPara utilizar o adaptador, favor reiniciar seu computador.</translation>
+	</message>
+	<message>
+	  <source>Yes_To_Reboot_Radio</source>
+	  <translation>Sim, reiniciar agora</translation>
+	</message>
+	<message>
+	  <source>No_To_Reboot_Radio</source>
+	  <translation>Não, reiniciar mais tarde</translation>
+	</message>
+	<message>
+	  <source>Ask_Reboot_Finish_Btn</source>
+	  <translation>OK</translation>
+	</message>
+	
+	<!--If user have installed driver but not wps tool, ask to install wps tool or install driver-->
+	<message>
+	  <source>Ask_Install_Driver_WPSTool_Description</source>
+	  <translation>Escolha uma opção abaixo:</translation>
+	</message>
+	<message>
+	  <source>Install_Driver_Description</source>
+	  <translation>Instalar Driver</translation>
+	</message>
+	<message>
+	  <source>Install_WPSTool_Description</source>
+	  <translation>Instalar Ferramenta WPS</translation>
+	</message>	
+	
+  </context>
+</language>

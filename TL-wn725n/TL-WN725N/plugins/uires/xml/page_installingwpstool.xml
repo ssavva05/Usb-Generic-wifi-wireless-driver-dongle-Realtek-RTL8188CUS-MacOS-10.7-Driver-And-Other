@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<include>
+  <caption pos="0,0,-0,-0" >
+	<!--WPS Logo图标-->
+	<!-- <img name="img_wps_logo" skin="skin_wps_logo" pos="273,34,327,89" animate="0"/> -->
+	<text name="WPS_name" pos="0,83,600,100" show="1" font="bold:1,size:13" colorText="#005564" align="center" valign="middle">WPS_Name</text>
+    <!--安装WPSTool时的GIF动画-->
+	<gifplayer name="InstWPSTool-gif" pos="|-50,|-50,|+50,|+50" skin="Installing_gif" show="1" />
+	<!--安装进度条-->
+	<progress name="InstWPSTool_progbar" pos="162,230,438,238" showPercent="0"/>
+	
+    <!--安装完成时的文字描述-->
+	<text name="InstWPSTool_percent" pos="0,254,|-0,272" font="size:14" show="1" colorText="#005564" align="right" valign="middle"></text>
+	<text pos="|+0,254,-0,272" font="size:14" show="1" colorText="#005564" align="left" valign="middle" >%</text>
+  </caption>
+</include>

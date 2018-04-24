@@ -1,0 +1,72 @@
+﻿<SOUI name="mainWindow" title="TP-Link Network Adapter" bigIcon="LOGO:32" width="600" height="400" minsize="600,400" margin="20,5,5,5"  resizable="0" 
+toolwindow="0"
+translucent="0"
+appWnd="1"
+trCtx="mainWindow">
+  <root >   <!--skin="skin_bkg_shadow"-->
+	<caption skin="skin_bkg_install_finish"> <!--pos="7,5,-7,-9"-->
+		<caption pos="0,0,-0,60" >		<!--右上角最小化，最大化功能按键-->
+			<imgbtn name="btn_close" skin="skin_close_win_btn" pos="-36,15,-26,25" animate="0"/>
+			<imgbtn name="btn_min" skin="skin_mini_win_btn" pos="-64,15,-52,27" animate="0"/>
+		</caption>
+		<caption pos="0,[0,-0,-0" >
+      <tabctrl name="tab_main" pos="0,0,-0,-0" show="1" curSel="0" focusable="0" tabHeight="0" animateSteps="0" animate="0">
+		<page title="SearchingCard">
+			<include src="LAYOUT:XML_SEARCHINGCARD" />			<!--0-->
+		</page>
+		<page title="InstallingDriver">
+			<include src="LAYOUT:XML_INSTALLINGDRIVER" />		<!--1-->
+		</page>
+		<page title="DriverInstallFinish">
+			<include src="LAYOUT:XML_DRIVERINSTALLFINISH" />    <!--2-->
+		</page>
+		<page title="AskInstallWPSTool">
+			<include src="LAYOUT:XML_ASKINSTALLWPSTOOL" />      <!--3-->
+		</page>
+		<page title="PathSelect">
+			<include src="LAYOUT:XML_PATHSELECT" />              <!--4-->
+		</page>
+		<page title="InstallingWPSTool">
+			<include src="LAYOUT:XML_INSTALLINGWPSTOOL" />        <!--5-->
+		</page>
+		<page title="WPSToolInstallFinish">
+			<include src="LAYOUT:XML_WPSTOOLINSTALLFINISH" />     <!--6-->
+		</page>
+		<!--Maintain-->
+		<page title="Maintain">
+			<include src="LAYOUT:XML_MAINTAIN" />    			<!--7-->
+		</page>
+		<!--repair mode-->
+		<page title="RepairingDriver">
+			<include src="LAYOUT:XML_REPAIRINGDRIVER" />          <!--8-->
+		</page>
+		<page title="RepairingWPSTool">
+			<include src="LAYOUT:XML_REPAIRWPSTOOL" />          <!--9-->
+		</page>
+		<page title="RepairingFinish">
+			<include src="LAYOUT:XML_REPAIRFINISH" />             <!--10-->
+		</page>
+		<!--remove mode-->
+		<page title="RemovingDriver">
+			<include src="LAYOUT:XML_REMOVINGDRIVER" />           <!--11-->
+		</page>
+		<page title="RemovingWPSTool">
+			<include src="LAYOUT:XML_REMOVINGWPSTOOL" />          <!--12-->
+		</page>
+		<page title="RemoveFinish">
+			<include src="LAYOUT:XML_REMOVEFINISH" />             <!--13-->
+		</page>
+		<page title="CardNotExist">
+			<include src="LAYOUT:XML_CARDNOTEXIST" />             <!--14-->
+		</page>
+		<page title="AskReboot">
+			<include src="LAYOUT:XML_ASKREBOOTCOMPUTER" />             <!--15-->
+		</page>
+		<page title="AskInstallDriverWPSTool">
+			<include src="LAYOUT:XML_ASKINSTALLDRIVERWPSTOOL" />             <!--16-->
+		</page>
+      </tabctrl>
+		</caption>
+	</caption>
+  </root>
+</SOUI>

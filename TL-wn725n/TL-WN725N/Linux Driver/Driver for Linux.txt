@@ -1,0 +1,1 @@
+For Linux users, please visit the TP-LINK support website, find and download the compatible version of driver for your network adapter at www.tp-link.com.

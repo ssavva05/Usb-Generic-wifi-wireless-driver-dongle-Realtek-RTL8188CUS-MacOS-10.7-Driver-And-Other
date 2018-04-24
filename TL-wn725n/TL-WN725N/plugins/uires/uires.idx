@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<resource>
+	<UIDEF>
+		<file name="XML_INIT" path="xml\init.xml" />
+	</UIDEF>
+	<LAYOUT>	<!--页面-->
+		<file name="XML_MAINWND" path="xml\dlg_main.xml" />
+		<file name="XML_MSGBOX" path="xml\msgbox.xml"/>
+		<file name="XML_SEARCHINGCARD" path="xml\page_searchingcard.xml" />
+		<file name="XML_CARDNOTEXIST" path="xml\page_cardnotexist.xml"/>
+		<file name="XML_INSTALLINGDRIVER" path="xml\page_installingdriver.xml"/>
+		<file name="XML_DRIVERINSTALLFINISH" path="xml\page_driverinstallfinish.xml" />
+		<file name="XML_ASKINSTALLWPSTOOL" path="xml\page_askinstallwpstool.xml"/>
+		<file name="XML_PATHSELECT" path="xml\page_pathselect.xml"/>
+		<file name="XML_INSTALLINGWPSTOOL" path="xml\page_installingwpstool.xml"/>
+		<file name="XML_WPSTOOLINSTALLFINISH" path="xml\page_wpstoolinstallfinish.xml"/>
+		
+		<file name="XML_MAINTAIN" path="xml\page_maintain.xml"/>
+		<file name="XML_REPAIRINGDRIVER" path="xml\page_repairingdriver.xml"/>
+		<file name="XML_REPAIRWPSTOOL" path="xml\page_repairingwpstool.xml"/>
+		<file name="XML_REPAIRFINISH" path="xml\page_repairfinish.xml"/>
+		<file name="XML_ASKREBOOTCOMPUTER" path="xml\page_askrebootcomputer.xml"/>
+		
+		<file name="XML_REMOVINGDRIVER" path="xml\page_removingdriver.xml"/>
+		<file name="XML_REMOVINGWPSTOOL" path="xml\page_removingwpstool.xml"/>
+		<file name="XML_REMOVEFINISH" path="xml\page_removefinish.xml"/>
+		<file name="XML_ASKINSTALLDRIVERWPSTOOL" path="xml\page_askinstalldriverwpstool.xml"/>
+	</LAYOUT>
+	<IMG_BKG>	<!--背景图片-->
+		<file name="bkg_shadow" path="image\shadow.png" />
+		<file name="bkg_msgbox" path="image\bkg_msgbox.png"/>
+		<file name="bkg_install_finish" path="image\bkg_install_finish.png" />
+		<file name="bkg_maintain_mode" path="image\maintain_mode_bkg.png"/>
+		<file name="bkg_edit_input" path="image\edit_input.png"/>
+	</IMG_BKG>
+	<IMG_BTN>	<!--界面上的按键-->
+		<file name="mini_win_btn" path="image\mini_win_btn.png" />
+		<file name="close_win_btn" path="image\close_win_btn.png" />
+		<file name="path_select_btn" path="image\path_select_btn.png"/>
+		<file name="step_btn" path="image\step_btn.png" />
+		<file name="short_btn_yes" path="image\short_btn_yes.png"/>
+		<file name="short_btn_yes_wpstool" path="image\short_btn_yes_wpstool.png"/>
+		<file name="short_btn_no" path="image\short_btn_no.png"/>
+		<file name="msgbox_close_btn" path="image\msgbox_close_btn.png"/>
+		<file name="radio_check" path="image\radio_check.png"/>
+		<file name="radio_bkg_btn" path="image\radio_bkg.png"/>
+		<file name="radio_select_btn" path="image\radio_select.png"/>
+	</IMG_BTN>
+	<IMG_PIC>	<!--界面上显示的图片-->
+		<file name="success_check" path="image\success_check.png" />
+		<file name="fail_check" path="image\fail_check.png"/>
+		<file name="WPS_logo" path="image\WPS_logo.png"/>
+		<file name="WPS_des" path="image\WPS_des.png"/>
+		<file name="repair_ico" path="image\repair_icon.png"/>
+		<file name="remove_ico" path="image\remove_icon.png"/>
+		<file name="msgbox_ico" path="image\msgbox_icon.png"/>
+		<file name="install_driver_ico" path="image\install_driver_ico.png"/>
+		<file name="install_wpstool_ico" path="image\install_wpstool_ico.png"/>
+	</IMG_PIC>
+	<IMG_PROGBAR>  
+		<!--条形进度条-->
+		<file name="progbar_full" path="image\progbar_full.png" />
+		<file name="progbar_bkg" path="image\progbar_bkg.png" />
+	</IMG_PROGBAR>
+	<GIF>  <!--GIF动画-->
+	  <file name="SearchCard_gif" path="image\SearchCard_gif.gif"/>
+	  <file name="Searching_gif" path="image\searching.gif"/>
+	  <file name="Installing_gif" path="image\installing.gif"/>
+	  <file name="Repairing_gif" path="image\repairing.gif"/>
+	  <file name="Removing_gif" path="image\removing.gif"/>
+	</GIF>
+	<ICON>		<!--ICON图标-->
+		<file name="LOGO" path="image\logo.ico" />
+	</ICON>
+	<translator>	<!--翻译文件-->
+		<file name="lang_cn" path="translator\lang_cn.xml" />
+		<file name="lang_Chinese_sm" path="translator\lang_Chinese_sm.xml" />   					<!--简体中文-->
+		<file name="lang_Chinese_tr" path="translator\lang_Chinese_tr.xml" />   					<!--繁体中文-->
+		<file name="lang_Czech" path="translator\lang_Czech.xml" />   								<!--捷克语-->
+		<file name="lang_Danish" path="translator\lang_Danish.xml" />								<!--丹麦语-->
+		<file name="lang_Dutch" path="translator\lang_Dutch.xml" />									<!--荷兰语-->
+		<file name="lang_English" path="translator\lang_English.xml" />								<!--英语(美国)-->
+		<file name="lang_Finnish" path="translator\lang_Finnish.xml" />								<!--芬兰语-->
+		<file name="lang_French(France)" path="translator\lang_French(France).xml" />				<!--法语-->
+		<file name="lang_German" path="translator\lang_German.xml" />								<!--德语-->
+		<file name="lang_Greek" path="translator\lang_Greek.xml" />									<!--希腊语-->
+		<file name="lang_Indonesian" path="translator\lang_Indonesian.xml" />						<!--印度尼西亚语-->
+		<file name="lang_Italian" path="translator\lang_Italian.xml" />								<!--意大利语-->
+		<file name="lang_Japanese" path="translator\lang_Japanese.xml" />							<!--日语-->
+		<file name="lang_Korean" path="translator\lang_Korean.xml" />								<!--韩语-->
+		<file name="lang_Norwegian" path="translator\lang_Norwegian.xml" />							<!--挪威语-->
+		<file name="lang_Polish" path="translator\lang_Polish.xml" />								<!--波兰语-->
+		<file name="lang_Portuguese(Brazil)" path="translator\lang_Portuguese(Brazil).xml" />		<!--葡萄牙语(巴西)-->
+		<file name="lang_Portuguese(Portugal)" path="translator\lang_Portuguese(Portugal).xml" />	<!--葡萄牙语(葡萄牙)-->
+		<file name="lang_Russian" path="translator\lang_Russian.xml" />								<!--俄语-->
+		<file name="lang_Serbian(Cyrillic)" path="translator\lang_Serbian(Cyrillic).xml" />			<!--塞尔维亚语-塞瑞利克-->
+		<file name="lang_Spanish" path="translator\lang_Spanish.xml" />								<!--西班牙语-->
+		<file name="lang_Swedish" path="translator\lang_Swedish.xml" />								<!--瑞典语-->
+		<file name="lang_Turkish" path="translator\lang_Turkish.xml" />								<!--土耳其语-->
+		<file name="lang_LatinSpanish" path="translator\lang_LatinSpanish.xml" />										<!--拉美西語-->
+		<file name="lang_Thai" path="translator\lang_Thai.xml" />										<!--泰語-->
+		<file name="lang_VN" path="translator\lang_VN.xml" />										<!--越南語-->
+		<file name="lang_Ukraine" path="translator\lang_Ukraine.xml" />										<!--烏克蘭語-->
+	</translator>
+	<rtf>		<!--协议文件-->
+	</rtf>
+</resource>

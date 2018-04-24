@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<include>
+  <caption pos="0,0,-0,-0" >
+	
+	<!--维护模式的描述-->
+	<text name="Maintain_des" pos="|-234,46,600,55" show="1" font="bold:1,size:13" colorText="#005564" align="left" valign="middle" animate="1" multiLines="1" interHeight="1" >Maintain_Description</text>
+	<!--repair mode选项-->
+	<window name="choose_repair" pos="|-234,85" width="468" height="72" skin="skin_bkg_maintain_mode" cursor="hand">
+		<img name="repair_icon" pos="29,21" skin="skin_repair_ico" show="1"/>
+		<text name="repair_des" pos="95,0,-29,-0" font="bold:1,size:11" colorText="#36444B" multiLines="1" align="left" valign="middle">
+			Repair_Mode_Description
+		</text>
+	</window>
+	
+	<window name="choose_remove" pos="|-234,181" width="468" height="72" skin="skin_bkg_maintain_mode" cursor="hand" animate="1">
+		<img name="remove_icon" pos="29,21" skin="skin_remove_ico" show="1"/>
+		<text name="remove_des" pos="95,0,-29,-0" font="bold:1,size:11" colorText="#36444B" multiLines="1" align="left" valign="middle">
+			Remove_Mode_Description
+		</text>
+	</window>
+    
+  </caption>
+</include>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language name="After translation (Please keep \n in translated text)" guid="{0DAEDE3C-6B94-4a81-9A55-C304FDD69D98}">
+  <context>
+    <!--没有上下文的翻译-->
+  </context>
+  <context name="messagebox">				<!--MessageBox弹窗上的文本信息-->
+    <message>
+      <source>OK</source>					<!--按键相关的文本-->
+      <translation>Oui</translation>
+    </message>
+    <message>
+      <source>Cancel</source>
+      <translation>Annuler</translation>
+    </message>
+	<message>
+      <source>Abort</source>
+      <translation>Sortir</translation>
+    </message>
+    <message>
+      <source>Retry</source>
+      <translation>Réessayer</translation>
+    </message>
+	<message>
+      <source>Yes</source>
+      <translation>OK </translation>
+    </message>
+	<message>
+      <source>No</source>
+      <translation>Non</translation>
+    </message>
+	<message>
+      <source>Ignore</source>
+      <translation>Ignorer</translation>
+    </message>
+	<message>								<!--MessageBox内提示信息的文本-->
+      <source>Close_Win_Description</source>
+      <translation>Si vous arrêtez maintenant, vous ne pourrez\n achever l’installation.\n Etes-vous sûr de vouloir arrêter ?</translation>
+    </message>
+	<message>								<!--MessageBox内提示信息的文本-->
+      <source>Run_Already_Tip</source>
+      <translation>Le programme est déjà en cours d'exécution.</translation>
+    </message>
+  </context>
+  
+  <context name="mainWindow">				<!--主界面上的文本信息-->
+	<message>								<!--机型名称-->
+	  <source>Select_Device_Des</source>			
+	  <translation>Veuillez sélectionner votre modèle afin de pouvoir installer le pilote.</translation>
+	</message>
+	<message>
+		<source>CopyRight_Info</source>
+		<translation>Copyright © 2017 TP-Link Technologies Co., Ltd. Tous droits réservés.</translation>
+	</message>
+  </context>
+</language>

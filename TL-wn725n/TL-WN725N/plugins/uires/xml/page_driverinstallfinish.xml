@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<include>
+  <caption pos="0,0,-0,-0" >
+	<!--Dash-->
+	<text name="dash" pos="0,83,600,97" show="1" font="bold:1,size:13" colorText="#005564" align="center" valign="middle">PrintDash</text>	  
+	<!--机型描述-->
+	<text name="dev_name_2" pos="0,83,600,97" show="1" font="bold:1,size:13" colorText="#005564" align="center" valign="middle">device' name</text>
+    <!--驱动安装完成页面上显示的图片-->
+    <img name="img_install_success_check" skin="skin_success_check" pos="280,121,320,161" animate="0" />
+    <!--驱动安装完成时的文字描述-->
+	<text name="install_finish_des" pos="0,173,600,220" font="bold:1,size:12" show="1" colorText="#36444B" align="center" valign="middle" multiLines="1" interHeight="2">Driver_Install_Finish_Description</text>
+	<!--安装完成按键-->
+    <imgbtn name="btn_install_driver_finish" skin="skin_step_btn" pos="230,235,370,267" font="bold:1,size:14"  colorText="#4ACBD6" colorTextHover="#FFFFFF" colorTextPush="#FFFFFF" animate="1" >Driver_Install_Finish_Btn</imgbtn>
+  </caption>
+</include>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<include>
+  <caption pos="0,0,-0,-0" >
+	
+	<!--维护模式的描述-->
+	<text name="Installed_Driver_WPSTool" pos="|-234,46,600,55" show="1" font="bold:1,size:13" colorText="#005564" align="left" valign="middle" animate="1" multiLines="1" interHeight="1" >Ask_Install_Driver_WPSTool_Description</text>
+	<!--repair mode选项-->
+	<window name="choose_install_driver" pos="|-234,85" width="468" height="72" skin="skin_bkg_maintain_mode" cursor="hand">
+		<img name="install_driver_ico" pos="29,21" skin="skin_install_driver_ico" show="1"/>
+		<text name="install_driver_Des" pos="95,0,-29,-0" font="bold:1,size:11" colorText="#36444B" multiLines="1" align="left" valign="middle">
+			Install_Driver_Description
+		</text>
+	</window>
+	
+	<window name="choose_install_WPSTool" pos="|-234,181" width="468" height="72" skin="skin_bkg_maintain_mode" cursor="hand" animate="1">
+		<img name="install_wpstool_ico" pos="29,21" skin="skin_install_wpstool_ico" show="1"/>
+		<text name="install_WPSTool_des" pos="95,0,-29,-0" font="bold:1,size:11" colorText="#36444B" multiLines="1" align="left" valign="middle">
+			Install_WPSTool_Description
+		</text>
+	</window>
+    
+  </caption>
+</include>

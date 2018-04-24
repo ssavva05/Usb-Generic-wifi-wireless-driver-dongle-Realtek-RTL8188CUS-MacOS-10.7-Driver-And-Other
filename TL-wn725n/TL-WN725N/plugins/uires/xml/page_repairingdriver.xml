@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<include>
+  <caption pos="0,0,-0,-0" >
+	<!--Dash-->
+	<text name="dash" pos="0,83,600,97" show="1" font="bold:1,size:13" colorText="#005564" align="center" valign="middle">PrintDash</text>	  
+	<!--机型描述-->
+	<text name="dev_name_8" pos="0,83,600,97" show="1" font="bold:1,size:13" colorText="#005564" align="center" valign="middle">device' name</text>
+    <!--repair 驱动时的Gif动画-->
+    <gifplayer name="RepairDriver-gif" pos="|-50,|-50,|+50,|+50" skin="Repairing_gif" show="1" />
+	<!--安装进度条-->
+	<progress name="RepairDriver_progbar" pos="162,230,438,238" showPercent="0"/>
+	
+    <!--安装完成时的文字描述-->
+	<text name="RepairDriver_percent" pos="0,254,|-0,272" font="size:14" show="1" colorText="#005564" align="right" valign="middle">35%</text>
+	<text pos="|+0,254,-0,272" font="size:14" show="1" colorText="#005564" align="left" valign="middle">%</text>
+  </caption>
+</include>

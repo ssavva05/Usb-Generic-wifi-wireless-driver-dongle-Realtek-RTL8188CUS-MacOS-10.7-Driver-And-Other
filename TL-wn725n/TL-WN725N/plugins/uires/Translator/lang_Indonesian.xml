@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language name="ch" guid="{0DAEDE3C-6B94-4a81-9A55-C304FDD69D98}">
+  <context>
+    <!--没有上下文的翻译-->
+  </context>
+  <context name="messagebox">				<!--MessageBox弹窗上的文本信息-->
+    <message>
+      <source>OK</source>					<!--按键相关的文本-->
+      <translation>Ya</translation>
+    </message>
+    <message>
+      <source>Cancel</source>
+      <translation>Tidak</translation>
+    </message>
+	<message>
+      <source>Abort</source>
+      <translation>Keluar</translation>
+    </message>
+    <message>
+      <source>Retry</source>
+      <translation>Ulang</translation>
+    </message>
+	<message>
+      <source>Yes</source>
+      <translation>Ya</translation>
+    </message>
+	<message>
+      <source>No</source>
+      <translation>Tidak</translation>
+    </message>
+	<message>
+      <source>Ignore</source>
+      <translation>Abaikan</translation>
+    </message>
+	<message>								<!--MessageBox内提示信息的文本-->
+      <source>Close_Win_Description</source>
+      <translation>Proses instalasi tidak selesai. Jika anda keluar sekarang. kamu tidak bisa terkoneksi ke jaringan Wi-Fi Apakah Anda ingin keluar?</translation>
+    </message>
+	<message>
+	  <source>Close_WPSTool_Install_Description</source>
+	  <translation>Proses instalasi tidak selesai. Jika anda keluar sekrang. WPS Tool tidak ter-install. Apakah Anda ingin keluar?</translation>
+	</message>
+	<message>
+      <source>Choose_Remove_Driver_Description</source>
+      <translation>Jika Anda menghapus driver, Anda tidak akan bisa terkoneksi ke jaringan Wi-Fi. Apakah Anda ingin untuk menghapusnya?</translation>
+    </message>
+	<message>
+      <source>Choose_Remove_All_Description</source>
+      <translation>Jika Anda menghapus driver dan WPS Tool, Anda tidak akan bisa terkoneksi ke jaringan Wi-Fi. Apakah Anda ingin untuk menghapusnya?</translation>
+    </message>
+	<message>
+	  <source>Unknown_System_Version</source>
+	  <translation>Tidak dapat menemumkan versi sistem Anda Proses instalasi akan keluar sekarang.</translation>
+	</message>
+	<message>
+	  <source>Installer_Do_Not_Support_This_System</source>
+	  <translation>Setup tidak sesuai dengan operating system Anda. Silahkan pilih package yang benar. </translation>
+	</message>
+	<message>
+	  <source>Driver_Do_Not_Support_This_System</source>
+	  <translation>Driver tidak sesuai dengan operating system Anda. Proses instalasi akan keluar sekarang.</translation>
+	</message>
+	<message>
+	  <source>Error_Request_Administrator</source>
+	  <translation>Anda harus menjalankan sebagai administrator untuk menggunakan software ini.</translation>
+	</message>
+	<message>
+	  <source>Error_Progress</source>
+	  <translation>Terjadi kesalahan dalam proses instalasi program. Proses instalasi akan keluar sekarang.</translation>
+	</message>
+	<message>
+	  <source>Error_File_Create_Failed</source>
+	  <translation>Tidak dapat membuat file.</translation>
+	</message>
+	<message>
+	  <source>Error_Unable_To_Create_File</source>
+	  <translation>Anda tidak memiliki ijin untuk membuat temporary files. Proses instalasi akan keluar sekarang.</translation>
+	</message>
+	<message>
+	  <source>Error_Launch</source>
+	  <translation>Tidak dapat menjalankan progam setup.</translation>
+	</message>
+	<message>
+	  <source>Error_Load</source>
+	  <translation>Tidak dapat menemukan file yang spesifik.</translation>
+	</message>
+	<message>
+	  <source>Error_Not_Enough_Space</source>
+	  <translation>Tidak cukup memory.</translation>
+	</message>
+	<message>
+	  <source>Error_Something_Wrong</source>
+	  <translation>Terjadi kesalahan dalam proses instalasi.</translation>
+	</message>
+	<message>
+	  <source>Loading_Info</source>
+	  <translation>Sedang menyiapkan proses setup …</translation>
+	</message>
+	<message>
+	  <source>WPSTool_Install_Attention</source>
+	  <translation>Anda telah meng-install WPS Tool untuk produk lain. jika Anda ingin meng-install WPS Tool untuk produk ini silahkan uninstall file yang lama.</translation>
+	</message>
+	<message>
+	  <source>Maintain_Quit_Attention</source>
+	  <translation>Apakah Anda ingin keluar?</translation>
+	</message>
+	<message>
+	  <source>Driver_Installed_Attention</source>
+	  <translation>Anda telah meng-install driver jika Anda ingin meng-install driver yang baru silahkan untuk uninstall file yang lama.</translation>
+	</message>
+	<message>
+	  <source>Install_Setup_Already_Run</source>
+	  <translation>Program Setup sedang berjalan.</translation>
+	</message>
+	<message>
+	  <source>Uninstall_Setup_Already_Run</source>
+	  <translation>Program Uninstall sedang berjalan.</translation>
+	</message>
+  </context>
+  
+  <context name="mainWindow">				<!--主界面上的文本信息-->
+	<message>								<!--机型名称-->
+	  <source>PrintDash</source>			
+	  <translation>———                         ———</translation>
+	</message>
+	<message>								<!--机型名称-->
+	  <source>WPS_Name</source>			
+	  <translation>——— WPS Tool ———</translation>
+	</message>
+	
+	<!--查询网卡页面-->
+	<message>								<!--查找网卡页面上的显示文本-->
+		<source>Searching_Card_Description</source>
+		<translation>Mencari adapater Anda…</translation>
+	</message>
+	
+	<!--无法查找到网卡提示页面-->
+	<message>								<!--无法查找到指定网卡时的提示信息-->
+		<source>Card_Not_Exist_Description</source>
+		<translation>Tidak dapat menemukan adapter. \nPastikan Anda telah memasang adapter dan memilih model yang seusai.</translation>
+	</message>
+	<message>								<!--无法查找到指定网卡时confirm按键上的提示信息-->
+		<source>Confirm_Btn</source>
+		<translation>Ulang</translation>
+	</message>
+	
+	<!--驱动安装完成页面-->
+	<message>								<!--驱动安装完成页面的文本提示信息-->
+	  <source>Driver_Install_Finish_Description</source>
+	  <translation>Driver telah ter-install! Sekarang komputer Anda dapat terkoneksi ke jaringan Wi-Fi.</translation>
+	</message>
+	<message>								<!--驱动安装完成页面按键的提示信息-->
+	  <source>Driver_Install_Finish_Btn</source>
+	  <translation>OK</translation>
+	</message>
+	
+	<!--提示是否安装WPSTool页面-->
+	<message>								<!--检测到支持WPSTool的提示信息-->
+	  <source>Detect_Support_WPSTool_Description</source>
+	  <translation>Selamat! Adapter Anda telah didukung dengan WPS.</translation>
+	</message>
+	<message>								<!--insert success word into WPS_des png-->
+	  <source>wps_connect_success</source>
+	  <translation>Berhasil</translation>
+	</message>	
+	<message>								<!--询问是否安装WPSTool提示信息-->
+	  <source>Ask_To_Install_WPSTool_Description</source>
+	  <translation>Dengan WPS (Wi-Fi Protected Setup)\nAnda dapat terkoneksi lebih mudah dengan menekan sebuah tombol. Untuk dapat menggunakannya, \npertama install mini WPS Tool kami yang bisa membantu Anda. Install WPS sekarang?</translation>
+	</message>
+	<message>								<!--确认安装WPSTool按键的提示信息-->
+	  <source>Yes_To_Install_WPSTool_Btn</source>
+	  <translation>Ya</translation>
+	</message>
+	<message>								<!--不安装WPSTool按键的提示信息-->
+	  <source>No_To_Install_WPSTool_Btn</source>
+	  <translation>Tidak</translation>
+	</message>
+	
+	<!--WPSTool安装路径选择页面-->
+	<message>								<!--WPSTool功能描述-->
+	  <source>WPSTool_Function_Description</source>
+	  <translation>Pilih lokasi file untuk WPS Tool.</translation>
+	</message>
+	<message>								<!--路径选择按键上的提示信息-->
+	  <source>Path_Selection_Btn</source>
+	  <translation>Browse</translation>
+	</message>
+	<message>
+	  <source>Path_Select_Guid</source>		<!--路径选择弹出窗口的提示信息-->
+	  <translation>Pilih lokasi file untuk WPS Tool.</translation>
+	</message>
+	<message>								<!--开始安装WPSTool按键上的提示信息-->
+	  <source>Start_Install_WPSTool_Btn</source>
+	  <translation>Memulai</translation>
+	</message>
+	
+	<!--WPSTool安装完成页面-->
+	<message>								<!--WPSTool安装完成时的描述信息-->
+	  <source>WPSTool_Install_Finish_Description</source>
+	  <translation>WPS Tool telah ter-install! \nUntuk dapat terkoneksi Wi-Fi, tekan tombol WPS di router Anda. Dalam 2 menit,\n tekan dan tahan tombol WPS di adapter Anda sampai WPS Tool terbuka.</translation>
+	</message>
+	<message>								<!--WPSTool安装完成时的Note信息-->
+	  <source>WPSTool_Install_Finish_Note</source>
+	  <translation></translation>
+	</message>
+	<message>								<!--WPSTool安装完成按键上的提示信息-->
+	  <source>WPSTool_Install_Finish_Btn</source>
+	  <translation>OK</translation>
+	</message>
+	
+	<!--维护模式选择页面-->
+	<message>								<!--维护模式选择页面的指引信息-->
+	  <source>Maintain_Description</source>
+	  <translation>Pilih pilihan dibawah ini untuk memodifikasi software yang ter-install.</translation>
+	</message>
+	<message>								<!--repair mode下选择框的提示信息-->
+	  <source>Repair_Mode_Description</source>
+	  <translation>Perbaiki driver (dan WPS Tool) jika timbul masalah.</translation>
+	</message>
+	<message>								<!--remove mode下选择框的提示信息-->
+	  <source>Remove_Mode_Description</source>
+	  <translation>Hapus driver (dan WPS Tool) dari komputer Anda.</translation>
+	</message>
+	<message>								<!--repair mode下选择框的提示信息-->
+	  <source>Repair_Driver_Description</source>
+	  <translation>Perbaiki driver jika timbul masalah.</translation>
+	</message>
+	<message>								<!--repair mode下选择框的提示信息-->
+	  <source>Repair_All_Description</source>
+	  <translation>Perbaiki driver dan WPS Tool jika timbul masalah.</translation>
+	</message>
+	<message>								<!--remove mode下选择框的提示信息-->
+	  <source>Remove_Driver_Description</source>
+	  <translation>Hapus driver dari komputer Anda.</translation>
+	</message>
+	<message>				
+	  <source>Remove_All_Description</source>
+	  <translation>Hapus driver dan WPS Tool dari komputer Anda.</translation>
+	</message>
+	
+	<!--Repair Mode完成时的页面-->
+	<message>								<!--repair mode完成时的提示信息-->
+	  <source>Repair_Mode_Finish_Description</source>
+	  <translation>Perbaikan berhasil!</translation>
+	</message>
+	<message>								<!--repair mode完成时按键的提示信息-->
+	  <source>Repair_Mode_Finish_Btn</source>
+	  <translation>OK</translation>
+	</message>
+	
+	<!--Remove Mode完成时的页面-->
+	<message>								<!--remove mode完成时的提示信息-->
+	  <source>Remove_Driver_Finish_Description</source>
+	  <translation>Driver telah berhasil dihapus dari komputer Anda.</translation>
+	</message>
+	<message>								<!--remove mode完成时的提示信息-->
+	  <source>Remove_All_Finish_Description</source>
+	  <translation>Driver dan WPS Tool telah berhasil dihapus dari komputer Anda.</translation>
+	</message>
+	<message>								<!--remove mode完成时的提示信息-->
+	  <source>Remove_Mode_Finish_Description</source>
+	  <translation>Driver (dan WPS Tool) telah berhasil dihapus dari komputer Anda.</translation>
+	</message>
+	<message>								<!--remove mode完成时按键的提示信息-->
+	  <source>Remove_Mode_Finish_Btn</source>
+	  <translation>OK</translation>
+	</message>
+	
+	<!--询问用户是否重启电脑页面-->
+	<message>
+	  <source>Ask_To_Reboot_Computer</source>
+	  <translation>Perbaikan Berhasil! Untuk menggunakan adapter, silahkan restart komputer Anda.</translation>
+	</message>
+	<message>
+	  <source>Yes_To_Reboot_Radio</source>
+	  <translation>Ya, restart sekarang</translation>
+	</message>
+	<message>
+	  <source>No_To_Reboot_Radio</source>
+	  <translation>Tidak, restart nanti</translation>
+	</message>
+	<message>
+	  <source>Ask_Reboot_Finish_Btn</source>
+	  <translation>OK</translation>
+	</message>
+	
+	<!--If user have installed driver but not wps tool, ask to install wps tool or install driver-->
+	<message>
+	  <source>Ask_Install_Driver_WPSTool_Description</source>
+	  <translation>pilih opsi dibawah :</translation>
+	</message>
+	<message>
+	  <source>Install_Driver_Description</source>
+	  <translation>Install Driver</translation>
+	</message>
+	<message>
+	  <source>Install_WPSTool_Description</source>
+	  <translation>Install WPS Tool</translation>
+	</message>	
+	
+  </context>
+</language>

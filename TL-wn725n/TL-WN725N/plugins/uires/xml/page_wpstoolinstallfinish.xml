@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<include>
+  <caption pos="0,0,-0,-0" >
+	<!--WPS Logo图标-->
+	<!-- <img name="img_wps_logo" skin="skin_wps_logo" pos="273,34,327,89" animate="0"/> -->
+	<text name="WPS_name" pos="0,83,600,100" show="1" font="bold:1,size:13" colorText="#005564" align="center" valign="middle">WPS_Name</text>
+    
+	<!--WPS安装成功图标-->
+	<img name="img_install_success_check" skin="skin_success_check" pos="280,121,320,161" animate="0"/>
+	
+    <!--WPS安装完成时的文字描述-->
+	<text name="install_wps_finish_des" pos="0,[20,600,[30" font="bold:1,size:12" show="1" colorText="#36444B" align="center" valign="middle" multiLines="1" interHeight="0">WPSTool_Install_Finish_Description</text>
+	<text name="install_wps_finish_note" pos="0,[13,600,[23" font="size:11" show="1" colorText="#A7A9AC" align="center" valign="middle" multiLines="1" interHeight="0">WPSTool_Install_Finish_Note</text>
+	
+	<!--完成按键-->
+	<imgbtn name="btn_install_wpstool_finish" skin="skin_step_btn" pos="230,235,370,267" font="bold:1,size:14"  colorText="#4ACBD6" colorTextHover="#FFFFFF" colorTextPush="#FFFFFF" animate="1">WPSTool_Install_Finish_Btn</imgbtn>
+	
+  </caption>
+</include>
